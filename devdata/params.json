@@ -2190,16 +2190,16 @@
 			"height": 30
 		},
 		"place": {
-			"file": "devdata/meiryo.ttf",
+			"file": "devdata/mplus-1p-regular.ttf",
 			"buffer": true,
 			"height": 40
 		},
 		"achievement": {
-			"file": "devdata/meiryo.ttf",
+			"file": "devdata/mplus-1p-regular.ttf",
 			"height": 30
 		},
 		"staff": {
-			"file": "devdata/meiryo.ttf",
+			"file": "devdata/mplus-1p-regular.ttf",
 			"height": 23
 		}
 	},
