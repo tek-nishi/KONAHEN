@@ -1,0 +1,190 @@
+{
+	"normal": [
+		{
+			"level": 6,
+			"konahen": 25,
+			"score": 800,
+			"rank": 11
+		},
+		{
+			"level": 5,
+			"konahen": 24,
+			"score": 700,
+			"rank": 10
+		},
+		{
+			"level": 5,
+			"konahen": 22,
+			"score": 600,
+			"rank": 9
+		},
+		{
+			"level": 5,
+			"konahen": 20,
+			"score": 500,
+			"rank": 8
+		},
+		{
+			"level": 4,
+			"konahen": 19,
+			"score": 460,
+			"rank": 7
+		},
+		{
+			"level": 4,
+			"konahen": 17,
+			"score": 410,
+			"rank": 6
+		},
+		{
+			"level": 4,
+			"konahen": 15,
+			"score": 330,
+			"rank": 5
+		},
+		{
+			"level": 3,
+			"konahen": 14,
+			"score": 290,
+			"rank": 4
+		},
+		{
+			"level": 3,
+			"konahen": 12,
+			"score": 230,
+			"rank": 3
+		},
+		{
+			"level": 3,
+			"konahen": 10,
+			"score": 200,
+			"rank": 1
+		}
+	],
+
+	"advanced": [
+		{
+			"level": 6,
+			"konahen": 25,
+			"score": 800,
+			"rank": 11
+		},
+		{
+			"level": 5,
+			"konahen": 24,
+			"score": 700,
+			"rank": 10
+		},
+		{
+			"level": 5,
+			"konahen": 22,
+			"score": 600,
+			"rank": 9
+		},
+		{
+			"level": 5,
+			"konahen": 20,
+			"score": 500,
+			"rank": 8
+		},
+		{
+			"level": 4,
+			"konahen": 19,
+			"score": 460,
+			"rank": 7
+		},
+		{
+			"level": 4,
+			"konahen": 17,
+			"score": 410,
+			"rank": 6
+		},
+		{
+			"level": 4,
+			"konahen": 15,
+			"score": 330,
+			"rank": 5
+		},
+		{
+			"level": 3,
+			"konahen": 14,
+			"score": 290,
+			"rank": 4
+		},
+		{
+			"level": 3,
+			"konahen": 12,
+			"score": 230,
+			"rank": 3
+		},
+		{
+			"level": 3,
+			"konahen": 10,
+			"score": 200,
+			"rank": 1
+		}
+	],
+	
+	"survival": [
+		{
+			"level": 6,
+			"konahen": 25,
+			"score": 800,
+			"rank": 11
+		},
+		{
+			"level": 5,
+			"konahen": 24,
+			"score": 700,
+			"rank": 10
+		},
+		{
+			"level": 5,
+			"konahen": 22,
+			"score": 600,
+			"rank": 9
+		},
+		{
+			"level": 5,
+			"konahen": 20,
+			"score": 500,
+			"rank": 8
+		},
+		{
+			"level": 4,
+			"konahen": 19,
+			"score": 460,
+			"rank": 7
+		},
+		{
+			"level": 4,
+			"konahen": 17,
+			"score": 410,
+			"rank": 6
+		},
+		{
+			"level": 4,
+			"konahen": 15,
+			"score": 330,
+			"rank": 5
+		},
+		{
+			"level": 3,
+			"konahen": 14,
+			"score": 290,
+			"rank": 4
+		},
+		{
+			"level": 3,
+			"konahen": 12,
+			"score": 230,
+			"rank": 3
+		},
+		{
+			"level": 3,
+			"konahen": 10,
+			"score": 200,
+			"rank": 1
+		}
+	]
+}

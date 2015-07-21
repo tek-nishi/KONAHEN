@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47043A4B158B2D1A0017D833 /* libFreeType.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47043A4A158B2D070017D833 /* libFreeType.a */; };
+		4707958B14398895006642F2 /* libFTGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4707958A1439888E006642F2 /* libFTGL.a */; };
+		4709906B1456C48800CDE76A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4709906A1456C48800CDE76A /* OpenAL.framework */; };
+		4727A42E141B73A300ADF4D2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4727A42D141B73A300ADF4D2 /* OpenGL.framework */; };
+		4727A430141B73AB00ADF4D2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4727A42F141B73AB00ADF4D2 /* GLUT.framework */; };
+		4727A466141B741300ADF4D2 /* devdata in Resources */ = {isa = PBXBuildFile; fileRef = 4727A461141B741300ADF4D2 /* devdata */; };
+		473DF729143C434500E21976 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473DF728143C434500E21976 /* CoreFoundation.framework */; };
+		473DF900143C4D2F00E21976 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473DF8FF143C4D2F00E21976 /* Cocoa.framework */; };
+		4763F45C14E8ED4A00CCEE04 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4763F45B14E8ED4A00CCEE04 /* icon.icns */; };
+		477CC5DA156E439C0041CA66 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477CC5D9156E43900041CA66 /* libjpeg.a */; };
+		4794B13C1433583A00F7CC19 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4794B13B1433583A00F7CC19 /* libz.dylib */; };
+		47AE1F0F142DABC200A8204C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AE1F03142DABC200A8204C /* main.cpp */; };
+		47B1C4F215D0CDEB00F2E923 /* lpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B1C4F115D0CD7D00F2E923 /* lpng.a */; };
+		47E72E17154AA89600085541 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47E72E19154AA89600085541 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47043A49158B2D070017D833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47043A42158B2D070017D833 /* FreeType.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = FreeType;
+		};
+		47043A4C158B2D270017D833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47043A42158B2D070017D833 /* FreeType.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = FreeType;
+		};
+		470795891439888E006642F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 470795821439888E006642F2 /* FTGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = FTGL;
+		};
+		4707958E143988A3006642F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 470795821439888E006642F2 /* FTGL.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = FTGL;
+		};
+		477CC5D8156E43900041CA66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 477CC5D1156E438F0041CA66 /* libjpeg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4750475214B6F6C70019209C;
+			remoteInfo = libjpeg;
+		};
+		477CC5DB156E43AF0041CA66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 477CC5D1156E438F0041CA66 /* libjpeg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4750475114B6F6C70019209C;
+			remoteInfo = libjpeg;
+		};
+		47B1C4F015D0CD7D00F2E923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47B1C4E915D0CD7D00F2E923 /* lpng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4750475214B6F6C70019209C;
+			remoteInfo = lpng;
+		};
+		47B1C4F315D0CDF400F2E923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47B1C4E915D0CD7D00F2E923 /* lpng.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4750475114B6F6C70019209C;
+			remoteInfo = lpng;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256AC3F00F4B6AF500CF3369 /* game04_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game04_Prefix.pch; sourceTree = "<group>"; };
+		47043A42158B2D070017D833 /* FreeType.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FreeType.xcodeproj; path = "freetype-2.4.10/builds/osx/FreeType.xcodeproj"; sourceTree = "<group>"; };
+		470795821439888E006642F2 /* FTGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FTGL.xcodeproj; path = "ftgl-2.1.3~rc5/osx/FTGL.xcodeproj"; sourceTree = "<group>"; };
+		4709906A1456C48800CDE76A /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		4727A42D141B73A300ADF4D2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4727A42F141B73AB00ADF4D2 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		4727A461141B741300ADF4D2 /* devdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = devdata; sourceTree = "<group>"; };
+		473DF728143C434500E21976 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		473DF8FF143C4D2F00E21976 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4763F45B14E8ED4A00CCEE04 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		477CC5D1156E438F0041CA66 /* libjpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libjpeg.xcodeproj; path = "jpeg-8d/libjpeg.xcodeproj"; sourceTree = "<group>"; };
+		4794B13B1433583A00F7CC19 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		47AE1F03142DABC200A8204C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		47B1C4E915D0CD7D00F2E923 /* lpng.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lpng.xcodeproj; path = lpng1512/lpng.xcodeproj; sourceTree = "<group>"; };
+		47E72E18154AA89600085541 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47E72E1A154AA89D00085541 /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* game04-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "game04-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* KONAHEN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KONAHEN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B1C4F215D0CDEB00F2E923 /* lpng.a in Frameworks */,
+				47043A4B158B2D1A0017D833 /* libFreeType.a in Frameworks */,
+				477CC5DA156E439C0041CA66 /* libjpeg.a in Frameworks */,
+				4707958B14398895006642F2 /* libFTGL.a in Frameworks */,
+				4794B13C1433583A00F7CC19 /* libz.dylib in Frameworks */,
+				4709906B1456C48800CDE76A /* OpenAL.framework in Frameworks */,
+				4727A42E141B73A300ADF4D2 /* OpenGL.framework in Frameworks */,
+				4727A430141B73AB00ADF4D2 /* GLUT.framework in Frameworks */,
+				473DF729143C434500E21976 /* CoreFoundation.framework in Frameworks */,
+				473DF900143C4D2F00E21976 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* KONAHEN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* game04 */ = {
+			isa = PBXGroup;
+			children = (
+				47B1C4E915D0CD7D00F2E923 /* lpng.xcodeproj */,
+				47043A42158B2D070017D833 /* FreeType.xcodeproj */,
+				477CC5D1156E438F0041CA66 /* libjpeg.xcodeproj */,
+				470795821439888E006642F2 /* FTGL.xcodeproj */,
+				4727A454141B73CB00ADF4D2 /* src */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = game04;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* game04_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47E72E19154AA89600085541 /* Localizable.strings */,
+				4763F45B14E8ED4A00CCEE04 /* icon.icns */,
+				4727A461141B741300ADF4D2 /* devdata */,
+				8D1107310486CEB800E47090 /* game04-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4709906A1456C48800CDE76A /* OpenAL.framework */,
+				473DF8FF143C4D2F00E21976 /* Cocoa.framework */,
+				473DF728143C434500E21976 /* CoreFoundation.framework */,
+				4727A42D141B73A300ADF4D2 /* OpenGL.framework */,
+				4727A42F141B73AB00ADF4D2 /* GLUT.framework */,
+				4794B13B1433583A00F7CC19 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47043A43158B2D070017D833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47043A4A158B2D070017D833 /* libFreeType.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		470795831439888E006642F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4707958A1439888E006642F2 /* libFTGL.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4727A454141B73CB00ADF4D2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				47AE1F03142DABC200A8204C /* main.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		477CC5D2156E438F0041CA66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				477CC5D9156E43900041CA66 /* libjpeg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47B1C4EA15D0CD7D00F2E923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47B1C4F115D0CD7D00F2E923 /* lpng.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* KONAHEN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "KONAHEN" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47B1C4F415D0CDF400F2E923 /* PBXTargetDependency */,
+				47043A4D158B2D270017D833 /* PBXTargetDependency */,
+				477CC5DC156E43AF0041CA66 /* PBXTargetDependency */,
+				4707958F143988A3006642F2 /* PBXTargetDependency */,
+			);
+			name = KONAHEN;
+			productInstallPath = "$(HOME)/Applications";
+			productName = game04;
+			productReference = 8D1107320486CEB800E47090 /* KONAHEN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "new game style";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "game04" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				ja,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* game04 */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 47043A43158B2D070017D833 /* Products */;
+					ProjectRef = 47043A42158B2D070017D833 /* FreeType.xcodeproj */;
+				},
+				{
+					ProductGroup = 470795831439888E006642F2 /* Products */;
+					ProjectRef = 470795821439888E006642F2 /* FTGL.xcodeproj */;
+				},
+				{
+					ProductGroup = 477CC5D2156E438F0041CA66 /* Products */;
+					ProjectRef = 477CC5D1156E438F0041CA66 /* libjpeg.xcodeproj */;
+				},
+				{
+					ProductGroup = 47B1C4EA15D0CD7D00F2E923 /* Products */;
+					ProjectRef = 47B1C4E915D0CD7D00F2E923 /* lpng.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* KONAHEN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		47043A4A158B2D070017D833 /* libFreeType.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFreeType.a;
+			remoteRef = 47043A49158B2D070017D833 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4707958A1439888E006642F2 /* libFTGL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFTGL.a;
+			remoteRef = 470795891439888E006642F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		477CC5D9156E43900041CA66 /* libjpeg.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjpeg.a;
+			remoteRef = 477CC5D8156E43900041CA66 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47B1C4F115D0CD7D00F2E923 /* lpng.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = lpng.a;
+			remoteRef = 47B1C4F015D0CD7D00F2E923 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4727A466141B741300ADF4D2 /* devdata in Resources */,
+				4763F45C14E8ED4A00CCEE04 /* icon.icns in Resources */,
+				47E72E17154AA89600085541 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AE1F0F142DABC200A8204C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47043A4D158B2D270017D833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FreeType;
+			targetProxy = 47043A4C158B2D270017D833 /* PBXContainerItemProxy */;
+		};
+		4707958F143988A3006642F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTGL;
+			targetProxy = 4707958E143988A3006642F2 /* PBXContainerItemProxy */;
+		};
+		477CC5DC156E43AF0041CA66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libjpeg;
+			targetProxy = 477CC5DB156E43AF0041CA66 /* PBXContainerItemProxy */;
+		};
+		47B1C4F415D0CDF400F2E923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = lpng;
+			targetProxy = 47B1C4F315D0CDF400F2E923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47E72E19154AA89600085541 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E72E18154AA89600085541 /* English */,
+				47E72E1A154AA89D00085541 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = game04_Prefix.pch;
+				INFOPLIST_FILE = "game04-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = KONAHEN;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = game04_Prefix.pch;
+				INFOPLIST_FILE = "game04-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = KONAHEN;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = _DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"ftgl-2.1.3~rc5/src/**",
+					"freetype-2.4.10/include/**",
+					lpng1512,
+					"jpeg-8d",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"ftgl-2.1.3~rc5/src/**",
+					"freetype-2.4.10/include/**",
+					lpng1512,
+					"jpeg-8d",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "KONAHEN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "game04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

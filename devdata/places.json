@@ -1,0 +1,2704 @@
+{
+	"Antarctica": {
+		"name": "南極大陸",
+		"type": "nature",
+		"level": 0,
+		"file": "antarctica.json"
+	},
+	"Arctic": {
+		"name": "北極",
+		"type": "nature",
+		"level": 0,
+		"file": "arctic.json"
+	},
+	"Greenland": {
+		"name": "グリーンランド",
+		"type": "nature",
+		"level": 0,
+		"file": "greenland.json"
+	},
+	"Niagara Falls": {
+		"name": "ナイアガラの滝",
+		"type": "nature",
+		"level": 7,
+		"file": "niagarafalls.json"
+	},
+
+	"HIMI": {
+		"name": "ハード島とマクドナルド諸島",
+		"type": "heritage",
+		"level": 11,
+		"file": "himi.json"
+	},
+	"Bikini Atoll": {
+		"name": "ビキニ環礁",
+		"type": "heritage",
+		"level": 11,
+		"file": "bikini.json"
+	},
+	"Statue of Liberty": {
+		"name": "自由の女神像",
+		"answer": "ニューヨーク",
+		"onetime": true,
+		"type": "heritage",
+		"level": 7,
+		"file": "statueofliberty.json"
+	},
+	"Grand Canyon": {
+		"name": "グランド・キャニオン",
+		"type": "heritage",
+		"level": 7,
+		"file": "grandcanyon.json"
+	},
+	"Historic Areas of Istanbul": {
+		"name": "イスタンブルの歴史地区",
+		"type": "heritage",
+		"level": 10,
+		"file": "istanbul.json"
+	},
+	"Neuschwanstein": {
+		"name": "ノイシュヴァンシュタイン城",
+		"type": "heritage",
+		"level": 10,
+		"file": "neuschwanstein.json"
+	},
+	"Petra": {
+		"name": "ペトラ",
+		"type": "heritage",
+		"level": 10,
+		"file": "petra.json"
+	},
+	"Easter Island": {
+		"name": "イースター島",
+		"type": "heritage",
+		"level": 8,
+		"file": "easterisland.json"
+	},
+	"Chichen Itza": {
+		"name": "チチェン・イッツァ",
+		"type": "heritage",
+		"level": 9,
+		"file": "chichenitza.json"
+	},
+	"Machu Picchu": {
+		"name": "マチュ・ピチュ",
+		"type": "heritage",
+		"level": 8,
+		"file": "machupicchu.json"
+	},
+	"Great Wall": {
+		"name": "万里の長城",
+		"type": "heritage",
+		"level": 4,
+		"file": "greatwall.json"
+	},
+	"Angkor": {
+		"name": "アンコール遺跡",
+		"type": "heritage",
+		"level": 10,
+		"file": "angkor.json"
+	},
+	"Kremlin": {
+		"name": "赤の広場",
+		"type": "heritage",
+		"level": 8,
+		"file": "kremlin.json"
+	},
+	"Mont-Saint-Michel": {
+		"name": "モン・サン=ミシェル",
+		"type": "heritage",
+		"level": 9,
+		"file": "montsaintmichel.json"
+	},
+	"Stonehenge": {
+		"name": "ストーンヘンジ",
+		"type": "heritage",
+		"level": 5,
+		"file": "stonehenge.json"
+	},
+	"Memphis and its Necropolis": {
+		"name": "メンフィスとその墓地遺跡",
+		"type": "heritage",
+		"level": 10,
+		"file": "pyramid.json"
+	},
+	
+	"Tokyo": {
+		"name": "東京",
+		"answer": "日本",
+		"onetime": true,
+		"type": "city",
+		"level": 1,
+		"file": "tokyo.json"
+	},
+	"Nagoya": {
+		"name": "名古屋",
+		"answer": "日本",
+		"onetime": true,
+		"type": "city",
+		"level": 8,
+		"file": "nagoya.json"
+	},
+	"Osaka": {
+		"name": "大阪",
+		"answer": "日本",
+		"onetime": true,
+		"type": "city",
+		"level": 2,
+		"file": "osaka.json"
+	},
+	"Fukuoka": {
+		"name": "福岡",
+		"answer": "日本",
+		"onetime": true,
+		"type": "city",
+		"level": 3,
+		"file": "fukuoka.json"
+	},
+	"Sapporo": {
+		"name": "札幌",
+		"answer": "日本",
+		"onetime": true,
+		"type": "city",
+		"level": 7,
+		"file": "sapporo.json"
+	},
+	"Kyoto": {
+		"name": "京都",
+		"answer": "日本",
+		"onetime": true,
+		"type": "city",
+		"level": 8,
+		"file": "kyoto.json"
+	},
+	"Seoul": {
+		"name": "ソウル",
+		"answer": "大韓民国",
+		"onetime": true,
+		"type": "city",
+		"level": 3,
+		"file": "seoul.json"
+	},
+	"Busan": {
+		"name": "プサン",
+		"answer": "大韓民国",
+		"onetime": true,
+		"type": "city",
+		"level": 8,
+		"file": "busan.json"
+	},
+	"Beijing": {
+		"name": "北京",
+		"answer": "中華人民共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 6,
+		"file": "beijing.json"
+	},
+	"Shanghai": {
+		"name": "上海",
+		"answer": "中華人民共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 4,
+		"file": "shanghai.json"
+	},
+	"New York": {
+		"name": "ニューヨーク",
+		"answer": "アメリカ合衆国",
+		"onetime": true,
+		"type": "city",
+		"level": 5,
+		"file": "newyork.json"
+	},
+	"Los Angels": {
+		"name": "ロサンジェルス",
+		"answer": "アメリカ合衆国",
+		"onetime": true,
+		"type": "city",
+		"level": 5,
+		"file": "losangeles.json"
+	},
+	"Chicago": {
+		"name": "シカゴ",
+		"answer": "アメリカ合衆国",
+		"onetime": true,
+		"type": "city",
+		"level": 7,
+		"file": "chicago.json"
+	},
+	"London": {
+		"name": "ロンドン",
+		"answer": "イギリス",
+		"onetime": true,
+		"type": "city",
+		"level": 3,
+		"file": "london.json"
+	},
+	"Rome": {
+		"name": "ローマ",
+		"answer": "イタリア共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 3,
+		"file": "rome.json"
+	},
+	"Milano": {
+		"name": "ミラノ",
+		"answer": "イタリア共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 9,
+		"file": "milano.json"
+	},
+	"Berlin": {
+		"name": "ベルリン",
+		"answer": "ドイツ連邦共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 5,
+		"file": "berlin.json"
+	},
+	"Moscow": {
+		"name": "モスクワ",
+		"answer": "ロシア連邦",
+		"onetime": true,
+		"type": "city",
+		"level": 6,
+		"file": "moscow.json"
+	},
+
+	
+	"Afghanistan": {
+		"name": "アフガニスタン・イスラム共和国",
+		"type": "country",
+		"level": 3,
+		"file": "afghanistan.json"
+	},
+	"Algeria": {
+		"name": "アルジェリア民主人民共和国",
+		"type": "country",
+		"level": 4,
+		"file": "algeria.json"
+	},
+	"Angola": {
+		"name": "アンゴラ共和国",
+		"type": "country",
+		"level": 8,
+		"file": "angola.json"
+	},
+	"Argentina": {
+		"name": "アルゼンチン共和国",
+		"type": "country",
+		"level": 1,
+		"file": "argentina.json"
+	},
+	"Australia": {
+		"name": "オーストラリア連邦",
+		"type": "country",
+		"level": 0,
+		"file": "australia.json"
+	},
+	"Austria": {
+		"name": "オーストリア共和国",
+		"type": "country",
+		"level": 3,
+		"file": "austria.json"
+	},
+	
+	"Bulgaria": {
+		"name": "ブルガリア共和国",
+		"type": "country",
+		"level": 3,
+		"file": "bulgaria.json"
+	},
+	"Bahrain": {
+		"name": "バーレーン王国",
+		"type": "country",
+		"level": 5,
+		"file": "bahrain.json"
+	},
+	"Bangladesh": {
+		"name": "バングラデシュ人民共和国",
+		"type": "country",
+		"level": 2,
+		"file": "bangladesh.json"
+	},
+	"Belgium": {
+		"name": "ベルギー王国",
+		"type": "country",
+		"level": 2,
+		"file": "belgium.json"
+	},
+	"Brasil": {
+		"name": "ブラジル連邦共和国",
+		"type": "country",
+		"level": 1,
+		"file": "brasil.json"
+	},
+
+	"Cambodia": {
+		"name": "カンボジア王国",
+		"type": "country",
+		"level": 3,
+		"file": "cambodia.json"
+	},
+	"Canada": {
+		"name": "カナダ",
+		"type": "country",
+		"level": 0,
+		"file": "canada.json"
+	},
+	"Chile": {
+		"name": "チリ共和国",
+		"type": "country",
+		"level": 1,
+		"file": "chile.json"
+	},
+	"China" : {
+		"name": "中華人民共和国",
+		"type": "country",
+		"level": 0,
+		"file": "china.json"
+	},
+	"Colombia" : {
+		"name": "コロンビア共和国",
+		"type": "country",
+		"level": 1,
+		"file": "colombia.json"
+	},
+	"Congo" : {
+		"name": "コンゴ民主共和国",
+		"type": "country",
+		"level": 3,
+		"file": "congo.json"
+	},
+	"CostaRica": {
+		"name": "コスタリカ共和国",
+		"type": "country",
+		"level": 6,
+		"file": "costarica.json"
+	},
+	"Cuba": {
+		"name": "キューバ共和国",
+		"type": "country",
+		"level": 1,
+		"file": "cuba.json"
+	},
+	"Czech" : {
+		"name": "チェコ共和国",
+		"type": "country",
+		"level": 4,
+		"file": "czech.json"
+	},
+
+	"Denmark" : {
+		"name": "デンマーク王国",
+		"type": "country",
+		"level": 2,
+		"file": "denmark.json"
+	},
+	"Dominican": {
+		"name": "ドミニカ共和国",
+		"type": "country",
+		"level": 3,
+		"file": "dominican.json"
+	},
+	"DPRK" : {
+		"name": "朝鮮民主主義人民共和国",
+		"type": "country",
+		"level": 1,
+		"file": "dprk.json"
+	},
+
+	"EastTimor": {
+		"name": "東ティモール民主共和国",
+		"type": "country",
+		"level": 7,
+		"file": "easttimor.json"
+	},
+	"Ecuador": {
+		"name": "エクアドル共和国",
+		"type": "country",
+		"level": 4,
+		"file": "ecuador.json"
+	},
+	"Egypt": {
+		"name": "エジプト・アラブ共和国",
+		"type": "country",
+		"level": 1,
+		"file": "egypt.json"
+	},
+	"Ethiopia": {
+		"name": "エチオピア連邦民主共和国",
+		"type": "country",
+		"level": 5,
+		"file": "ethiopia.json"
+	},
+
+	"Fiji": {
+		"name": "フィジー共和国",
+		"type": "country",
+		"level": 9,
+		"file": "fiji.json"
+	},
+	"Finland": {
+		"name": "フィンランド共和国",
+		"type": "country",
+		"level": 3,
+		"file": "finland.json"
+	},
+	"France": {
+		"name": "フランス共和国",
+		"type": "country",
+		"level": 1,
+		"file": "france.json"
+	},
+
+	"Germany": {
+		"name": "ドイツ連邦共和国",
+		"type": "country",
+		"level": 1,
+		"file": "germany.json"
+	},
+	"Greece": {
+		"name": "ギリシャ共和国",
+		"type": "country",
+		"level": 1,
+		"file": "greece.json"
+	},
+	"Guatemala": {
+		"name": "グアテマラ共和国",
+		"type": "country",
+		"level": 6,
+		"file": "guatemala.json"
+	},
+	
+	"Haiti": {
+		"name": "ハイチ共和国",
+		"type": "country",
+		"level": 4,
+		"file": "haiti.json"
+	},
+
+	"Iceland": {
+		"name": "アイスランド共和国",
+		"type": "country",
+		"level": 2,
+		"file": "iceland.json"
+	},
+	"India": {
+		"name": "インド共和国",
+		"type": "country",
+		"level": 1,
+		"file": "india.json"
+	},
+	"Indonesia": {
+		"name": "インドネシア共和国",
+		"type": "country",
+		"level": 1,
+		"file": "indonesia.json"
+	},
+	"Iran": {
+		"name": "イラン・イスラム共和国",
+		"type": "country",
+		"level": 2,
+		"file": "iran.json"
+	},
+	"Iraq": {
+		"name": "イラク共和国",
+		"type": "country",
+		"level": 2,
+		"file": "iraq.json"
+	},
+	"Ireland": {
+		"name": "アイルランド共和国",
+		"type": "country",
+		"level": 2,
+		"file": "ireland.json"
+	},
+	"Italiana": {
+		"name": "イタリア共和国",
+		"type": "country",
+		"level": 0,
+		"file": "italiana.json"
+	},
+
+	"Jamaica": {
+		"name": "ジャマイカ",
+		"type": "country",
+		"level": 3,
+		"file": "jamaica.json"
+	},
+	"Japan": {
+		"name": "日本",
+		"type": "country",
+		"level": 0,
+		"file": "japan.json"
+	},
+	"Jordan": {
+		"name": "ヨルダン・ハシミテ王国",
+		"type": "country",
+		"level": 5,
+		"file": "jordan.json"
+	},
+	
+	"Kazakhstan" : {
+		"name": "カザフスタン共和国",
+		"type": "country",
+		"level": 6,
+		"file": "kazakhstan.json"
+	},
+	"Kenya": {
+		"name": "ケニア共和国",
+		"type": "country",
+		"level": 3,
+		"file": "kenya.json"
+	},
+	"Korea" : {
+		"name": "大韓民国",
+		"type": "country",
+		"level": 0,
+		"file": "korea.json"
+	},
+
+	"Laos" : {
+		"name": "ラオス人民民主共和国",
+		"type": "country",
+		"level": 4,
+		"file": "laos.json"
+	},
+	"Libya": {
+		"name": "リビア共和国",
+		"type": "country",
+		"level": 2,
+		"file": "libya.json"
+	},
+
+	"Madagascar": {
+		"name": "マダガスカル共和国",
+		"type": "country",
+		"level": 1,
+		"file": "madagascar.json"
+	},
+	"Malaysia": {
+		"name": "マレーシア",
+		"type": "country",
+		"level": 2,
+		"file": "malaysia.json"
+	},
+	"Maldives": {
+		"name": "モルディブ共和国",
+		"type": "country",
+		"level": 5,
+		"file": "maldives.json"
+	},
+	"Mexicanos": {
+		"name": "メキシコ合衆国",
+		"type": "country",
+		"level": 0,
+		"file": "mexicanos.json"
+	},
+	"Monaco": {
+		"name": "モナコ公国",
+		"type": "country",
+		"level": 4,
+		"file": "monaco.json"
+	},
+	"Mongol": {
+		"name": "モンゴル国",
+		"type": "country",
+		"level": 3,
+		"file": "mongol.json"
+	},
+	"Morocco": {
+		"name": "モロッコ王国",
+		"type": "country",
+		"level": 5,
+		"file": "morocco.json"
+	},
+	"Mozambique": {
+		"name": "モザンビーク共和国",
+		"type": "country",
+		"level": 6,
+		"file": "mozambique.json"
+	},
+	"Myanma": {
+		"name": "ミャンマー連邦共和国",
+		"type": "country",
+		"level": 4,
+		"file": "myanma.json"
+	},
+
+	"Namibia" : {
+		"name": "ナミビア共和国",
+		"type": "country",
+		"level": 7,
+		"file": "namibia.json"
+	},
+	"Nepal": {
+		"name": "ネパール連邦民主共和国",
+		"type": "country",
+		"level": 4,
+		"file": "nepal.json"
+	},
+	"Netherlands": {
+		"name": "オランダ王国",
+		"type": "country",
+		"level": 1,
+		"file": "netherlands.json"
+	},
+	"New Zealand": {
+		"name": "ニュージーランド",
+		"type": "country",
+		"level": 0,
+		"file": "newzealand.json"
+	},
+	"Nicaragua": {
+		"name": "ニカラグア共和国",
+		"type": "country",
+		"level": 6,
+		"file": "nicaragua.json"
+	},
+	"Nigeria": {
+		"name": "ナイジェリア連邦共和国",
+		"type": "country",
+		"level": 5,
+		"file": "nigeria.json"
+	},
+	"Norway": {
+		"name": "ノルウェー王国",
+		"type": "country",
+		"level": 1,
+		"file": "norway.json"
+	},
+	
+	"Oman": {
+		"name": "オマーン国",
+		"type": "country",
+		"level": 4,
+		"file": "oman.json"
+	},
+
+	"Pakistan": {
+		"name": "パキスタン・イスラム共和国",
+		"type": "country",
+		"level": 4,
+		"file": "pakistan.json"
+	},
+	"Palestine": {
+		"name": "パレスチナ自治区",
+		"type": "country",
+		"level": 2,
+		"file": "palestine.json"
+	},
+	"Panama": {
+		"name": "パナマ共和国",
+		"type": "country",
+		"level": 2,
+		"file": "panama.json"
+	},
+	"PapuaNiugini": {
+		"name": "パプアニューギニア独立国",
+		"type": "country",
+		"level": 7,
+		"file": "papuaniugini.json"
+	},
+	"Peru": {
+		"name": "ペルー共和国",
+		"type": "country",
+		"level": 2,
+		"file": "peru.json"
+	},
+	"Philippines": {
+		"name": "フィリピン共和国",
+		"type": "country",
+		"level": 1,
+		"file": "philippines.json"
+	},
+	"Poland": {
+		"name": "ポーランド共和国",
+		"type": "country",
+		"level": 2,
+		"file": "poland.json"
+	},
+	"Portugal": {
+		"name": "ポルトガル共和国",
+		"type": "country",
+		"level": 1,
+		"file": "portugal.json"
+	},
+
+	"Qatar": {
+		"name": "カタール国",
+		"type": "country",
+		"level": 4,
+		"file": "qatar.json"
+	},
+
+	"RSA": {
+		"name": "南アフリカ共和国",
+		"type": "country",
+		"level": 1,
+		"file": "rsa.json"
+	},
+	"Romania": {
+		"name": "ルーマニア",
+		"type": "country",
+		"level": 4,
+		"file": "romania.json"
+	},
+	"Russia": {
+		"name": "ロシア連邦",
+		"type": "country",
+		"level": 0,
+		"file": "russia.json"
+	},
+
+	"Saudiarabia": {
+		"name": "サウジアラビア王国",
+		"type": "country",
+		"level": 1,
+		"file": "saudiarabia.json"
+	},
+	"Senegal": {
+		"name": "セネガル共和国",
+		"type": "country",
+		"level": 7,
+		"file": "senegal.json"
+	},
+	"Singapore": {
+		"name": "シンガポール共和国",
+		"type": "country",
+		"level": 3,
+		"file": "singapore.json"
+	},
+	"Somalia": {
+		"name": "ソマリア",
+		"type": "country",
+		"level": 4,
+		"file": "somalia.json"
+	},
+	"Spain": {
+		"name": "スペイン",
+		"type": "country",
+		"level": 1,
+		"file": "spain.json"
+	},
+	"Solomon": {
+		"name": "ソロモン諸島",
+		"type": "country",
+		"level": 8,
+		"file": "solomon.json"
+	},
+	"South Sudan": {
+		"name": "南スーダン共和国",
+		"type": "country",
+		"level": 6,
+		"file": "southsudan.json"
+	},
+	"Srilanka": {
+		"name": "スリランカ民主社会主義共和国",
+		"type": "country",
+		"level": 3,
+		"file": "srilanka.json"
+	},
+	"Sudan": {
+		"name": "スーダン共和国",
+		"type": "country",
+		"level": 5,
+		"file": "sudan.json"
+	},
+	"Sweden": {
+		"name": "スウェーデン王国",
+		"type": "country",
+		"level": 2,
+		"file": "sweden.json"
+	},
+	"Switzerland": {
+		"name": "スイス連邦",
+		"type": "country",
+		"level": 2,
+		"file": "switzerland.json"
+	},
+	"Syrian" : {
+		"name": "シリア・アラブ共和国",
+		"type": "country",
+		"level": 5,
+		"file": "syrian.json"
+	},
+
+	"Taiwan": {
+		"name": "台湾",
+		"type": "country",
+		"level": 1,
+		"file": "taiwan.json"
+	},
+	"Tanzania": {
+		"name": "タンザニア連合共和国",
+		"type": "country",
+		"level": 6,
+		"file": "tanzania.json"
+	},
+	"Thailand": {
+		"name": "タイ王国",
+		"type": "country",
+		"level": 2,
+		"file": "thailand.json"
+	},
+	"Turkey": {
+		"name": "トルコ共和国",
+		"type": "country",
+		"level": 2,
+		"file": "turkey.json"
+	},
+
+	"UAE": {
+		"name": "アラブ首長国連邦",
+		"type": "country",
+		"level": 2,
+		"file": "uae.json"
+	},
+	"UK": {
+		"name": "イギリス",
+		"type": "country",
+		"level": 0,
+		"file": "uk.json"
+	},
+	"USA" : {
+		"name": "アメリカ合衆国",
+		"type": "country",
+		"level": 0,
+		"file": "usa.json"
+	},
+	"Uzbekistan" : {
+		"name": "ウズベキスタン共和国",
+		"type": "country",
+		"level": 6,
+		"file": "uzbekistan.json"
+	},
+
+	"Vatican" : {
+		"name": "バチカン市国",
+		"type": "country",
+		"level": 7,
+		"file": "vatican.json"
+	},
+	"Venezuela": {
+		"name": "ベネズエラ・ボリバル共和国",
+		"type": "country",
+		"level": 5,
+		"file": "venezuela.json"
+	},
+	"Vietnam" : {
+		"name": "ベトナム社会主義共和国",
+		"type": "country",
+		"level": 3,
+		"file": "vietnam.json"
+	},
+
+	"Yemen" : {
+		"name": "イエメン共和国",
+		"type": "country",
+		"level": 6,
+		"file": "yemen.json"
+	},
+	
+
+	"Elsalvador": {
+		"name": "エルサルバドル共和国",
+		"type": "country",
+		"level": 8,
+		"file": "elsalvador.json"
+	},
+	"Bolivia": {
+		"name": "ボリビア多民族国",
+		"type": "country",
+		"level": 8,
+		"file": "bolivia.json"
+	},
+	"Bahamas": {
+		"name": "バハマ国",
+		"type": "country",
+		"level": 3,
+		"file": "bahamas.json"
+	},
+	"Mauritania" : {
+		"name": "モーリタニア・イスラム共和国",
+		"type": "country",
+		"level": 8,
+		"file": "mauritania.json"
+	},
+	"Ghana" : {
+		"name": "ガーナ共和国",
+		"type": "country",
+		"level": 8,
+		"file": "ghana.json"
+	},
+	"Cotedivoire" : {
+		"name": "コートジボワール共和国",
+		"type": "country",
+		"level": 8,
+		"file": "cotedivoire.json"
+	},
+	"Cameroon" : {
+		"name": "カメルーン共和国",
+		"type": "country",
+		"level": 7,
+		"file": "cameroon.json"
+	},
+	"Botswana" : {
+		"name": "ボツワナ共和国",
+		"type": "country",
+		"level": 9,
+		"file": "botswana.json"
+	},
+	"Zimbabwe" : {
+		"name": "ジンバブエ共和国",
+		"type": "country",
+		"level": 7,
+		"file": "zimbabwe.json"
+	},
+	"Chad" : {
+		"name": "チャド共和国",
+		"type": "country",
+		"level": 9,
+		"file": "chad.json"
+	},
+	"Niger" : {
+		"name": "ニジェール共和国",
+		"type": "country",
+		"level": 8,
+		"file": "niger.json"
+	},
+	"Guinea" : {
+		"name": "ギニア共和国",
+		"type": "country",
+		"level": 8,
+		"file": "guinea.json"
+	},
+	"SADR" : {
+		"name": "西サハラ",
+		"type": "country",
+		"level": 8,
+		"file": "sadr.json"
+	},
+	"Tunisia" : {
+		"name": "チュニジア共和国",
+		"type": "country",
+		"level": 6,
+		"file": "tunisia.json"
+	},
+	"Uganda" : {
+		"name": "ウガンダ共和国",
+		"type": "country",
+		"level": 9,
+		"file": "uganda.json"
+	},
+	"Zambia" : {
+		"name": "ザンビア共和国",
+		"type": "country",
+		"level": 9,
+		"file": "zambia.json"
+	},
+	"Bhutan" : {
+		"name": "ブータン王国",
+		"type": "country",
+		"level": 8,
+		"file": "bhutan.json"
+	},
+	"Kyrgyz" : {
+		"name": "キルギス共和国",
+		"type": "country",
+		"level": 9,
+		"file": "kyrgyz.json"
+	},
+	"Tajikistan" : {
+		"name": "タジキスタン共和国",
+		"type": "country",
+		"level": 8,
+		"file": "tajikistan.json"
+	},
+	"Ukraine" : {
+		"name": "ウクライナ",
+		"type": "country",
+		"level": 6,
+		"file": "ukraine.json"
+	},
+	"Slovensko" : {
+		"name": "スロバキア共和国",
+		"type": "country",
+		"level": 6,
+		"file": "slovensko.json"
+	},
+	"Hungary" : {
+		"name": "ハンガリー",
+		"type": "country",
+		"level": 4,
+		"file": "hungary.json"
+	},
+	"Cyprus" : {
+		"name": "キプロス共和国",
+		"type": "country",
+		"level": 9,
+		"file": "cyprus.json"
+	},
+	"Lebanon" : {
+		"name": "レバノン共和国",
+		"type": "country",
+		"level": 6,
+		"file": "lebanon.json"
+	},
+	"Kuwait" : {
+		"name": "クウェート国",
+		"type": "country",
+		"level": 6,
+		"file": "kuwait.json"
+	},
+	"Uruguay" : {
+		"name": "ウルグアイ東方共和国",
+		"type": "country",
+		"level": 7,
+		"file": "uruguay.json"
+	},
+	"Honduras" : {
+		"name": "ホンジュラス共和国",
+		"type": "country",
+		"level": 9,
+		"file": "honduras.json"
+	},
+	"Samoa" : {
+		"name": "サモア独立国",
+		"type": "country",
+		"level": 8,
+		"file": "samoa.json"
+	},
+	"Tonga" : {
+		"name": "トンガ王国",
+		"type": "country",
+		"level": 9,
+		"file": "tonga.json"
+	},
+	"Lesotho" : {
+		"name": "レソト王国",
+		"type": "country",
+		"level": 9,
+		"file": "lesotho.json"
+	},
+	"Paraguay": {
+		"name": "パラグアイ共和国",
+		"type": "country",
+		"level": 6,
+		"file": "paraguay.json"
+	},
+
+	"BlackSea": {
+		"name": "黒海",
+		"type": "sea",
+		"level": 2,
+		"file": "blacksea.json"
+	},
+	"DeadSea": {
+		"name": "死海",
+		"type": "lake",
+		"level": 5,
+		"file": "deadsea.json"
+	},
+	
+	"CaspianSea": {
+		"name": "カスピ海",
+		"type": "lake",
+		"level": 2,
+		"file": "caspiansea.json"
+	},
+	"LakeOhrid": {
+		"name": "オフリド湖",
+		"type": "lake",
+		"level": 6,
+		"file": "lakeohrid.json"
+	},
+	"LakePrespa": {
+		"name": "プレスパ湖",
+		"type": "lake",
+		"level": 8,
+		"file": "lakeprespa.json"
+	},
+	"SeaOfGalilee": {
+		"name": "ガリラヤ湖",
+		"type": "lake",
+		"level": 9,
+		"file": "seaofgalilee.json"
+	},
+	"AralSea": {
+		"name": "アラル海",
+		"type": "lake",
+		"level": 4,
+		"file": "aralsea.json"
+	},
+	"LakeIssykKul": {
+		"name": "イシク・クル",
+		"type": "lake",
+		"level": 8,
+		"file": "lakeissykkul.json"
+	},
+	"LakeBaikal": {
+		"name": "バイカル湖",
+		"type": "lake",
+		"level": 2,
+		"file": "lakebaikal.json"
+	},
+	"LakeHubsugul": {
+		"name": "フブスグル湖",
+		"type": "lake",
+		"level": 9,
+		"file": "lakehubsugul.json"
+	},
+	"LakeBiwa": {
+		"name": "琵琶湖",
+		"type": "lake",
+		"level": 3,
+		"file": "lakebiwa.json"
+	},
+	"LakeLanao": {
+		"name": "ラナオ湖",
+		"type": "lake",
+		"level": 9,
+		"file": "lakelanao.json"
+	},
+	"laketahoe": {
+		"name": "タホ湖",
+		"type": "lake",
+		"level": 10,
+		"file": "laketahoe.json"
+	},
+	"LakeMaracaibo": {
+		"name": "マラカイボ湖",
+		"type": "lake",
+		"level": 9,
+		"file": "lakemaracaibo.json"
+	},
+	"LakeTiticaca": {
+		"name": "チチカカ湖",
+		"type": "lake",
+		"level": 5,
+		"file": "laketiticaca.json"
+	},
+	"LakeTanganyika": {
+		"name": "タンガニーカ湖",
+		"type": "lake",
+		"level": 6,
+		"file": "laketanganyika.json"
+	},
+	"LakeVictoria": {
+		"name": "ヴィクトリア湖",
+		"type": "lake",
+		"level": 3,
+		"file": "lakevictoria.json"
+	},
+	"LakeEyre": {
+		"name": "エーア湖",
+		"type": "lake",
+		"level": 9,
+		"file": "lakeeyre.json"
+	},
+	"LakeBosomtwe": {
+		"name": "ボスムトゥイ湖",
+		"type": "lake",
+		"level": 9,
+		"file": "lakebosomtwe.json"
+	},
+
+	"Equator": {
+		"name": "赤道",
+		"type": "nature",
+		"level": 3,
+		"file": "equator.json"
+	},
+	"PrimeMeridian": {
+		"name": "グリニッジ子午線",
+		"type": "nature",
+		"level": 5,
+		"file": "primemeridian.json"
+	},
+
+	"SamsungElectronics": {
+		"name": "サムスン電子本社",
+		"answer": "ソウル",
+		"type": "company",
+		"level": 7,
+		"file": "seoul.json"
+	},
+	"Apple": {
+		"name": "アップル本社",
+		"answer": "クパチーノ",
+		"type": "company",
+		"level": 6,
+		"file": "apple.json"
+	},
+	"Microsoft": {
+		"name": "マイクロソフト本社",
+		"answer": "レドモンド",
+		"type": "company",
+		"level": 6,
+		"file": "microsoft.json"
+	},
+	"Google": {
+		"name": "グーグル本社",
+		"answer": "マウンテンビュー",
+		"type": "company",
+		"level": 8,
+		"file": "microsoft.json"
+	},
+	"Amazon": {
+		"name": "Amazon.com本社",
+		"answer": "シアトル",
+		"type": "company",
+		"level": 7,
+		"file": "amazon.json"
+	},
+	"Yahoo": {
+		"name": "Yahoo!本社",
+		"answer": "サニーベール",
+		"type": "company",
+		"level": 8,
+		"file": "microsoft.json"
+	},
+	"Toyota": {
+		"name": "トヨタ自動車本社",
+		"answer": "豊田市",
+		"type": "company",
+		"level": 8,
+		"file": "toyota.json"
+	},
+	
+	"PanamaCanal": {
+		"name": "パナマ運河",
+		"type": "nature",
+		"level": 5,
+		"file": "panamacanal.json"
+	},
+	"SuezCanal": {
+		"name": "スエズ運河",
+		"type": "nature",
+		"level": 5,
+		"file": "suezcanal.json"
+	},
+	
+	"No1Mountain": {
+		"name": "世界で一番高い山",
+		"answer": "エベレスト",
+		"type": "guinness",
+		"level": 4,
+		"file": "no1mountain.json"
+	},
+	"No1Low": {
+		"name": "世界で一番低い場所",
+		"answer": "死海とその近辺",
+		"type": "guinness",
+		"level": 6,
+		"file": "deadsea.json"
+	},
+	"No1Lake": {
+		"name": "世界で一番広い湖",
+		"answer": "カスピ海",
+		"type": "guinness",
+		"level": 4,
+		"file": "caspiansea.json"
+	},
+	"No1DeepLake": {
+		"name": "世界で一番深い湖",
+		"answer": "バイカル湖",
+		"type": "guinness",
+		"level": 5,
+		"file": "lakebaikal.json"
+	},
+	"No1ClearLake": {
+		"name": "世界で一番透明な湖",
+		"answer": "バイカル湖",
+		"type": "guinness",
+		"level": 5,
+		"file": "lakebaikal.json"
+	},
+	"No1DeepSea": {
+		"name": "世界で一番深い海",
+		"answer": "マリアナ海溝",
+		"type": "guinness",
+		"level": 10,
+		"file": "no1deepsea.json"
+	},
+	"No1Narrow": {
+		"name": "世界で一番狭い海峡",
+		"answer": "土渕海峡",
+		"type": "guinness",
+		"level": 6,
+		"file": "no1narrow.json"
+	},
+	"No1Wide": {
+		"name": "世界で一番広い海峡",
+		"answer": "ドレーク海峡",
+		"type": "guinness",
+		"level": 6,
+		"file": "no1wide.json"
+	},
+	"No1Long": {
+		"name": "世界で一番長い川",
+		"answer": "ナイル河",
+		"type": "guinness",
+		"level": 2,
+		"file": "no1long.json"
+	},
+	"No1Desert": {
+		"name": "世界で一番広い砂漠",
+		"answer": "サハラ砂漠",
+		"type": "guinness",
+		"level": 1,
+		"file": "no1desert.json"
+	},
+	"No1Waterfall": {
+		"name": "世界一落差のある滝",
+		"answer": "エンジェルフォール",
+		"type": "guinness",
+		"level": 9,
+		"file": "no1waterfall.json"
+	},
+	
+	"NorthHalf": {
+		"name": "北半球",
+		"type": "nature",
+		"level": 0,
+		"file": "northhalf.json"
+	},
+	"SouthHalf": {
+		"name": "南半球",
+		"type": "nature",
+		"level": 0,
+		"file": "southhalf.json"
+	},
+	
+	"Africa": {
+		"name": "アフリカ大陸",
+		"type": "nature",
+		"level": 0,
+		"file": "africa.json"
+	},
+	"NorthAmerica": {
+		"name": "北アメリカ大陸",
+		"type": "nature",
+		"level": 0,
+		"file": "northamerica.json"
+	},
+	"SouthAmerica": {
+		"name": "南アメリカ大陸",
+		"type": "nature",
+		"level": 0,
+		"file": "southamerica.json"
+	},
+	"Eurasia": {
+		"name": "ユーラシア大陸",
+		"type": "nature",
+		"level": 0,
+		"file": "eurasia.json"
+	},
+	"Australian": {
+		"name": "オーストラリア大陸",
+		"type": "nature",
+		"level": 0,
+		"file": "australia.json"
+	},
+	
+	"IndianOcean": {
+		"name": "インド洋",
+		"type": "sea",
+		"level": 0,
+		"file": "indianocean.json"
+	},
+	"AtlanticOcean": {
+		"name": "大西洋",
+		"type": "sea",
+		"level": 0,
+		"file": "atlanticocean.json"
+	},
+	"PacificOcean": {
+		"name": "太平洋",
+		"type": "sea",
+		"level": 0,
+		"file": "pacificocean.json"
+	},
+
+	"FIFA First": {
+		"name": "第1回FIFAワールドカップ開催国",
+		"answer": "ウルグアイ東方共和国",
+		"type": "knowledge",
+		"level": 8,
+		"file": "uruguay.json"
+	},
+	"Olympic First": {
+		"name": "第1回オリンピック開催国",
+		"answer": "ギリシャ共和国",
+		"type": "knowledge",
+		"level": 2,
+		"file": "greece.json"
+	},
+	"No1Crater": {
+		"name": "世界最大の隕石衝突跡",
+		"answer": "フレデフォート・ドーム",
+		"type": "guinness",
+		"level": 5,
+		"file": "no1crater.json"
+	},
+	"No1Rock": {
+		"name": "世界一大きな岩",
+		"answer": "マウント・オーガスタス",
+		"type": "guinness",
+		"level": 5,
+		"file": "no1rock.json"
+	},
+	
+	"Alps": {
+		"name": "アルプス山脈",
+		"type": "nature",
+		"level": 0,
+		"file": "alps.json"
+	},
+	"Andes": {
+		"name": "アンデス山脈",
+		"type": "nature",
+		"level": 1,
+		"file": "andes.json"
+	},
+	"Japan Alps": {
+		"name": "日本アルプス",
+		"type": "nature",
+		"level": 3,
+		"file": "japanalps.json"
+	},
+	"Himalayan Range": {
+		"name": "ヒマラヤ山脈",
+		"type": "nature",
+		"level": 0,
+		"file": "himalayan.json"
+	},
+	"Rocky Mountains": {
+		"name": "ロッキー山脈",
+		"type": "nature",
+		"level": 1,
+		"file": "rocky.json"
+	},
+	"Dinar Alps": {
+		"name": "ディナル・アルプス山脈",
+		"type": "nature",
+		"level": 4,
+		"file": "dinaralps.json"
+	},
+	"Australian Alps": {
+		"name": "オーストラリアアルプス山脈",
+		"type": "nature",
+		"level": 3,
+		"file": "australianalps.json"
+	},
+	"Transylvanian Alps": {
+		"name": "トランシルヴァニアアルプス山脈",
+		"type": "nature",
+		"level": 4,
+		"file": "transylvanianalps.json"
+	},
+	"Great Salt": {
+		"name": "グレートソルト湖",
+		"type": "nature",
+		"level": 4,
+		"file": "saltlake.json"
+	},
+	
+	"Nazca": {
+		"name": "ナスカの地上絵",
+		"type": "heritage",
+		"level": 7,
+		"file": "nazca.json"
+	},
+
+	"Israel": {
+		"name": "イスラエル国",
+		"type": "country",
+		"level": 3,
+		"file": "israel.json"
+	},
+
+	"Capital Japan": {
+		"name": "日本の首都",
+		"answer": "東京",
+		"type": "city",
+		"level": 1,
+		"file": "tokyo.json"
+	},
+	"Capital USA": {
+		"name": "アメリカ合衆国の首都",
+		"answer": "ワシントンD.C.",
+		"type": "city",
+		"level": 3,
+		"file": "washington.json"
+	},
+	"Capital China": {
+		"name": "中華人民共和国の首都",
+		"answer": "北京",
+		"type": "city",
+		"level": 7,
+		"file": "beijing.json"
+	},
+	"Capital Korea": {
+		"name": "大韓民国の首都",
+		"answer": "ソウル",
+		"type": "city",
+		"level": 1,
+		"file": "seoul.json"
+	},
+	"Capital Greece": {
+		"name": "ギリシャ共和国の首都",
+		"answer": "アテネ",
+		"type": "city",
+		"level": 5,
+		"file": "athens.json"
+	},
+	"Capital UK": {
+		"name": "イギリスの首都",
+		"answer": "ロンドン",
+		"type": "city",
+		"level": 3,
+		"file": "london.json"
+	},
+	"Capital Ireland": {
+		"name": "アイルランド共和国の首都",
+		"answer": "ダブリン",
+		"type": "city",
+		"level": 5,
+		"file": "dublin.json"
+	},
+	"Capital Canada": {
+		"name": "カナダの首都",
+		"answer": "オタワ",
+		"type": "city",
+		"level": 6,
+		"file": "ottawa.json"
+	},
+	"Capital Australia": {
+		"name": "オーストラリア連邦の首都",
+		"answer": "キャンベラ",
+		"type": "city",
+		"level": 5,
+		"file": "canberra.json"
+	},
+	"Capital Italiana": {
+		"name": "イタリア共和国の首都",
+		"answer": "ローマ",
+		"type": "city",
+		"level": 4,
+		"file": "rome.json"
+	},
+	"Capital France": {
+		"name": "フランス共和国の首都",
+		"answer": "パリ",
+		"type": "city",
+		"level": 4,
+		"file": "paris.json"
+	},
+	"Capital Germany": {
+		"name": "ドイツ連邦共和国の首都",
+		"answer": "ベルリン",
+		"type": "city",
+		"level": 7,
+		"file": "berlin.json"
+	},
+	"Capital Mexicanos": {
+		"name": "メキシコ合衆国の首都",
+		"answer": "メキシコシティ",
+		"type": "city",
+		"level": 6,
+		"file": "mexicocity.json"
+	},
+	"Capital Brasil": {
+		"name": "ブラジル連邦共和国の首都",
+		"answer": "ブラジリア",
+		"type": "city",
+		"level": 7,
+		"file": "brasilia.json"
+	},
+	"Capital India": {
+		"name": "インド共和国の首都",
+		"answer": "ニューデリー",
+		"type": "city",
+		"level": 6,
+		"file": "newdelhi.json"
+	},
+	"Capital Russia": {
+		"name": "ロシア連邦の首都",
+		"answer": "モスクワ",
+		"type": "city",
+		"level": 7,
+		"file": "moscow.json"
+	},
+	"Capital Switzerland": {
+		"name": "スイス連邦の首都",
+		"answer": "ベルン",
+		"type": "city",
+		"level": 5,
+		"file": "bern.json"
+	},
+	"Capital Spain": {
+		"name": "スペインの首都",
+		"answer": "マドリード",
+		"type": "city",
+		"level": 5,
+		"file": "madrid.json"
+	},
+	"Capital Portugal": {
+		"name": "ポルトガル共和国の首都",
+		"answer": "リスボン",
+		"type": "city",
+		"level": 5,
+		"file": "lisbon.json"
+	},
+	"Capital Saudiarabia": {
+		"name": "サウジアラビア王国の首都",
+		"answer": "リヤド",
+		"type": "city",
+		"level": 7,
+		"file": "riyadh.json"
+	},
+	"Capital Philippines": {
+		"name": "フィリピン共和国の首都",
+		"answer": "マニラ",
+		"type": "city",
+		"level": 7,
+		"file": "manila.json"
+	},
+	"Capital Vietnam": {
+		"name": "ベトナム社会主義共和国の首都",
+		"answer": "ハノイ",
+		"type": "city",
+		"level": 7,
+		"file": "hanoi.json"
+	},
+	"Capital Argentina": {
+		"name": "アルゼンチン共和国の首都",
+		"answer": "ブエノスアイレス",
+		"type": "city",
+		"level": 7,
+		"file": "buenosaires.json"
+	},
+	"Capital Turkey": {
+		"name": "トルコ共和国の首都",
+		"answer": "アンカラ",
+		"type": "city",
+		"level": 6,
+		"file": "ankara.json"
+	},
+	"Capital Netherlands": {
+		"name": "オランダ王国の首都",
+		"answer": "アムステルダム",
+		"type": "city",
+		"level": 2,
+		"file": "amsterdam.json"
+	},
+	"Capital UAE": {
+		"name": "アラブ首長国連邦の首都",
+		"answer": "アブダビ",
+		"type": "city",
+		"level": 7,
+		"file": "abudhabi.json"
+	},
+	
+	"Bermuda Triangle": {
+		"name": "バミューダトライアングル",
+		"type": "knowledge",
+		"level": 8,
+		"file": "bermuda.json"
+	},
+	"Titanic Wreck": {
+		"name": "タイタニック号が沈没した場所",
+		"type": "knowledge",
+		"level": 11,
+		"file": "titanic.json"
+	},
+	"Syowa Station": {
+		"name": "昭和基地",
+		"type": "knowledge",
+		"level": 11,
+		"file": "syowastation.json"
+	},
+	
+	"Tonle Sap": {
+		"name": "世界最大の水上集落",
+		"answer": "トンレサップ(100万人)",
+		"type": "guinness",
+		"level": 7,
+		"file": "tonlesap.json"
+	},
+	
+	"Galapagos": {
+		"name": "ガラパゴス諸島",
+		"type": "heritage",
+		"level": 4,
+		"file": "galapagos.json"
+	},
+	"Okinawae": {
+		"name": "ヤンバルクイナ生息地",
+		"answer": "やんばる地域",
+		"type": "knowledge",
+		"level": 7,
+		"file": "okinawae.json"
+	},
+	"Kiwi": {
+		"name": "キーウィ生息地",
+		"answer": "ニュージーランド",
+		"type": "knowledge",
+		"level": 5,
+		"file": "newzealand.json"
+	},
+	"Iriomotensis": {
+		"name": "イリオモテヤマネコ生息地",
+		"answer": "西表島",
+		"type": "knowledge",
+		"level": 9,
+		"file": "iriomotensis.json"
+	},
+	"GiantPanda": {
+		"name": "ジャイアントパンダ生息地",
+		"answer": "四川省北部など",
+		"type": "knowledge",
+		"level": 9,
+		"file": "giantpanda.json"
+	},
+	"SiberianTiger": {
+		"name": "アムールトラ生息地",
+		"answer": "アムール川流域",
+		"type": "knowledge",
+		"level": 9,
+		"file": "siberiantiger.json"
+	},
+	"GalapagosPenguin": {
+		"name": "ガラパゴスペンギン生息地",
+		"answer": "ガラパゴス諸島",
+		"type": "knowledge",
+		"level": 6,
+		"file": "galapagos.json"
+	},
+
+	"Mesopotamia": {
+		"name": "メソポタミア文明",
+		"answer": "紀元前3500年 - 紀元前1190年",
+		"type": "knowledge",
+		"level": 3,
+		"file": "mesopotamia.json"
+	},
+	"Ancient Egypt": {
+		"name": "エジプト文明",
+		"answer": "紀元前3000年 - 紀元前30年",
+		"type": "knowledge",
+		"level": 2,
+		"file": "ancientegypt.json"
+	},
+	"Indus Valley": {
+		"name": "インダス文明",
+		"answer": "紀元前2600年 - 紀元前1800年",
+		"type": "knowledge",
+		"level": 3,
+		"file": "indusvalley.json"
+	},
+	"Huang Ho": {
+		"name": "黄河文明",
+		"answer": "紀元前5000年 - 紀元前1700年",
+		"type": "knowledge",
+		"level": 2,
+		"file": "huangho.json"
+	},
+	"Azteca": {
+		"name": "アステカ帝国",
+		"answer": "1428年 - 1521年",
+		"type": "knowledge",
+		"level": 4,
+		"file": "azteca.json"
+	},
+	"Andean": {
+		"name": "アンデス文明",
+		"answer": "紀元前3500年 - 1532年",
+		"type": "knowledge",
+		"level": 4,
+		"file": "andean.json"
+	},
+	"Maya": {
+		"name": "マヤ文明",
+		"answer": "紀元前1000年 - 1697年",
+		"type": "knowledge",
+		"level": 5,
+		"file": "maya.json"
+	},
+
+	"Osorezan": {
+		"name": "恐山",
+		"type": "nature",
+		"level": 5,
+		"file": "osorezan.json"
+	},
+	"Senkaku": {
+		"name": "尖閣諸島",
+		"type": "nature",
+		"level": 10,
+		"file": "senkaku.json"
+	},
+	"Hoppou": {
+		"name": "北方領土",
+		"type": "nature",
+		"level": 4,
+		"file": "hoppou.json"
+	},
+	"Palau": {
+		"name": "パラオ共和国",
+		"type": "country",
+		"level": 10,
+		"file": "palau.json"
+	},
+	"fsm": {
+		"name": "ミクロネシア連邦",
+		"type": "country",
+		"level": 10,
+		"file": "fsm.json"
+	},
+	"Tuvalu": {
+		"name": "ツバル",
+		"type": "country",
+		"level": 9,
+		"file": "tuvalu.json"
+	},
+	"Mauritius": {
+		"name": "モーリシャス共和国",
+		"type": "country",
+		"level": 10,
+		"file": "mauritius.json"
+	},
+	"Seychelles": {
+		"name": "セーシェル共和国",
+		"type": "country",
+		"level": 10,
+		"file": "seychelles.json"
+	},
+	"Kiribati": {
+		"name": "キリバス共和国",
+		"type": "country",
+		"level": 11,
+		"file": "kiribati.json"
+	},
+	"Cabo Verde": {
+		"name": "カーボベルデ共和国",
+		"type": "country",
+		"level": 11,
+		"file": "caboverde.json"
+	},
+	"Suriname": {
+		"name": "スリナム共和国",
+		"type": "country",
+		"level": 11,
+		"file": "suriname.json"
+	},
+	"Guyana": {
+		"name": "ガイアナ共和国",
+		"type": "country",
+		"level": 11,
+		"file": "guyana.json"
+	},
+	"Togo": {
+		"name": "トーゴ共和国",
+		"type": "country",
+		"level": 9,
+		"file": "togo.json"
+	},
+	"Mali": {
+		"name": "マリ共和国",
+		"type": "country",
+		"level": 10,
+		"file": "mali.json"
+	},
+	"Liberia": {
+		"name": "リベリア共和国",
+		"type": "country",
+		"level": 10,
+		"file": "liberia.json"
+	},
+	"Sierra Leone": {
+		"name": "シエラレオネ共和国",
+		"type": "country",
+		"level": 11,
+		"file": "sierraleone.json"
+	},
+	"Gabon": {
+		"name": "ガボン共和国",
+		"type": "country",
+		"level": 11,
+		"file": "gabon.json"
+	},
+	"Republic of the Congo": {
+		"name": "コンゴ共和国",
+		"type": "country",
+		"level": 7,
+		"file": "rcongo.json"
+	},
+	"Eritrea": {
+		"name": "エリトリア国",
+		"type": "country",
+		"level": 11,
+		"file": "eritrea.json"
+	},
+	"Djibouti": {
+		"name": "ジブチ共和国",
+		"type": "country",
+		"level": 10,
+		"file": "djibouti.json"
+	},
+	"Estonia": {
+		"name": "エストニア共和国",
+		"type": "country",
+		"level": 10,
+		"file": "estonia.json"
+	},
+	"Latvia": {
+		"name": "ラトビア共和国",
+		"type": "country",
+		"level": 10,
+		"file": "latvia.json"
+	},
+	"Lithuania": {
+		"name": "リトアニア共和国",
+		"type": "country",
+		"level": 10,
+		"file": "lithuania.json"
+	},
+	"Belarus": {
+		"name": "ベラルーシ共和国",
+		"type": "country",
+		"level": 9,
+		"file": "belarus.json"
+	},
+	"Croatia": {
+		"name": "クロアチア共和国",
+		"type": "country",
+		"level": 7,
+		"file": "croatia.json"
+	},
+	"Azerbaijan": {
+		"name": "アゼルバイジャン共和国",
+		"type": "country",
+		"level": 10,
+		"file": "azerbaijan.json"
+	},
+	"Turkmenistan": {
+		"name": "トルクメニスタン",
+		"type": "country",
+		"level": 10,
+		"file": "turkmenistan.json"
+	},
+	"Hong Kong": {
+		"name": "香港",
+		"type": "country",
+		"level": 4,
+		"file": "hongkong.json"
+	},
+	"Brunei": {
+		"name": "ブルネイ・ダルサラーム国",
+		"type": "country",
+		"level": 10,
+		"file": "brunei.json"
+	},
+	"Pompeii": {
+		"name": "ポンペイ遺跡",
+		"type": "heritage",
+		"level": 8,
+		"file": "pompeii.json"
+	},
+	"Tikal": {
+		"name": "ティカル国立公園",
+		"type": "heritage",
+		"level": 10,
+		"file": "tikal.json"
+	},
+	"Kilwa": {
+		"name": "キルワ・キシワニの遺跡群",
+		"type": "heritage",
+		"level": 10,
+		"file": "kilwa.json"
+	},
+	"Palenque": {
+		"name": "古代都市パレンケ",
+		"type": "heritage",
+		"level": 10,
+		"file": "palenque.json"
+	},
+	"Forbidden City": {
+		"name": "紫禁城",
+		"type": "heritage",
+		"level": 9,
+		"file": "beijing.json"
+	},
+	"Mogao Caves": {
+		"name": "莫高窟",
+		"type": "heritage",
+		"level": 10,
+		"file": "mogaocaves.json"
+	},
+	"Persepolis": {
+		"name": "ペルセポリス",
+		"type": "heritage",
+		"level": 10,
+		"file": "persepolis.json"
+	},
+	"Palmyra": {
+		"name": "パルミラ遺跡",
+		"type": "heritage",
+		"level": 9,
+		"file": "palmyra.json"
+	},
+	"Pisa": {
+		"name": "ピサの斜塔",
+		"type": "heritage",
+		"level": 8,
+		"file": "pisa.json"
+	},
+	"Bagan": {
+		"name": "バガン遺跡",
+		"type": "heritage",
+		"level": 10,
+		"file": "bagan.json"
+	},
+	"Cappadocia": {
+		"name": "カッパドキアの岩石遺跡群",
+		"type": "heritage",
+		"level": 8,
+		"file": "cappadocia.json"
+	},
+	"Abu Simbel": {
+		"name": "アブ・シンベル神殿",
+		"type": "heritage",
+		"level": 7,
+		"file": "abusimbel.json"
+	},
+	"Teotihuacan": {
+		"name": "古代都市テオティワカン",
+		"type": "heritage",
+		"level": 9,
+		"file": "mexicocity.json"
+	},
+	"Copan": {
+		"name": "コパンのマヤ遺跡",
+		"type": "heritage",
+		"level": 10,
+		"file": "copan.json"
+	},
+	"Uxmal": {
+		"name": "古代都市ウシュマル",
+		"type": "heritage",
+		"level": 10,
+		"file": "uxmal.json"
+	},
+
+	"Shaolin Temple": {
+		"name": "少林拳発祥の地",
+		"answer": "嵩山少林寺",
+		"type": "knowledge",
+		"level": 9,
+		"file": "shaolintemple.json"
+	},
+	"Subway": {
+		"name": "世界初の地下鉄",
+		"answer": "ロンドン地下鉄",
+		"type": "knowledge",
+		"level": 5,
+		"file": "london.json"
+	},
+	"Kanmontetsudou": {
+		"name": "世界初の海底鉄道トンネル",
+		"answer": "関門鉄道トンネル",
+		"type": "knowledge",
+		"level": 6,
+		"file": "kanmontetsudou.json"
+	},
+	"Piggly Wiggly": {
+		"name": "世界初のスーパーマーケット",
+		"answer": "Piggly Wiggly",
+		"type": "knowledge",
+		"level": 8,
+		"file": "pigglywiggly.json"
+	},
+	"Ashurbanipal": {
+		"name": "世界初の図書館",
+		"answer": "アッシュールバニパルの図書館",
+		"type": "knowledge",
+		"level": 7,
+		"file": "ashurbanipal.json"
+	},
+	"Zoo": {
+		"name": "世界初の動物園",
+		"answer": "ロンドン動物園",
+		"type": "knowledge",
+		"level": 5,
+		"file": "london.json"
+	},
+	"Museum": {
+		"name": "世界初の博物館",
+		"answer": "国立自然史博物館",
+		"type": "knowledge",
+		"level": 6,
+		"file": "paris.json"
+	},
+	"Alpen": {
+		"name": "アルペンスキー発祥の地",
+		"answer": "チロル",
+		"type": "knowledge",
+		"level": 8,
+		"file": "alpen.json"
+	},
+	"Beer": {
+		"name": "ビール発祥の地",
+		"answer": "メソポタミア",
+		"type": "knowledge",
+		"level": 6,
+		"file": "mesopotamia.json"
+	},
+
+	"Chernobyl": {
+		"name": "チェルノブイリ原子力発電所",
+		"type": "knowledge",
+		"level": 10,
+		"file": "chernobyl.json"
+	},
+	"Hudson Bay": {
+		"name": "ハドソン湾",
+		"type": "sea",
+		"level": 1,
+		"file": "hudsonbay.json"
+	},
+	"Mediterranean": {
+		"name": "地中海",
+		"type": "sea",
+		"level": 0,
+		"file": "mediterranean.json"
+	},
+	"Arabian Sea": {
+		"name": "アラビア海",
+		"type": "sea",
+		"level": 0,
+		"file": "arabiansea.json"
+	},
+	"Red Sea": {
+		"name": "紅海",
+		"type": "sea",
+		"level": 1,
+		"file": "redsea.json"
+	},
+	"Caribbean Sea": {
+		"name": "カリブ海",
+		"type": "sea",
+		"level": 0,
+		"file": "caribbeansea.json"
+	},
+	"Bering Sea": {
+		"name": "ベーリング海",
+		"type": "sea",
+		"level": 2,
+		"file": "beringsea.json"
+	},
+	"Okhotsk": {
+		"name": "オホーツク海",
+		"type": "sea",
+		"level": 2,
+		"file": "okhotsk.json"
+	},
+	"Gulf of Mexico": {
+		"name": "メキシコ湾",
+		"type": "sea",
+		"level": 0,
+		"file": "gulfofmexico.json"
+	},
+	"Australian Bight": {
+		"name": "グレートオーストラリア湾",
+		"type": "sea",
+		"level": 3,
+		"file": "australianbight.json"
+	},
+	"Tasmania": {
+		"name": "タスマニア島",
+		"type": "nature",
+		"level": 1,
+		"file": "tasmania.json"
+	},
+	"Gulf of California": {
+		"name": "カリフォルニア湾",
+		"type": "sea",
+		"level": 2,
+		"file": "gulfofcalifornia.json"
+	},
+	"East China Sea": {
+		"name": "東シナ海",
+		"type": "sea",
+		"level": 3,
+		"file": "eastchinasea.json"
+	},
+	"South China Sea": {
+		"name": "南シナ海",
+		"type": "sea",
+		"level": 3,
+		"file": "southchinasea.json"
+	},
+	
+	"Kalahari Desert": {
+		"name": "カラハリ砂漠",
+		"type": "nature",
+		"level": 4,
+		"file": "kalahari.json"
+	},
+	"Govi": {
+		"name": "ゴビ砂漠",
+		"type": "nature",
+		"level": 3,
+		"file": "govi.json"
+	},
+	"Great Victoria Desert": {
+		"name": "グレートビクトリア砂漠",
+		"type": "nature",
+		"level": 4,
+		"file": "greatvictoria.json"
+	},
+	"Arabian Peninsula": {
+		"name": "アラビア半島",
+		"type": "nature",
+		"level": 0,
+		"file": "arabianpeninsula.json"
+	},
+	"No1Peninsula": {
+		"name": "世界最大の半島",
+		"answer": "アラビア半島",
+		"type": "guinness",
+		"level": 1,
+		"file": "arabianpeninsula.json"
+	},
+	"Scandinavian Peninsula": {
+		"name": "スカンディナヴィア半島",
+		"type": "nature",
+		"level": 1,
+		"file": "scandinavian.json"
+	},
+	"Kamchatka": {
+		"name": "カムチャツカ半島",
+		"type": "nature",
+		"level": 2,
+		"file": "kamchatka.json"
+	},
+	"Florida Peninsula": {
+		"name": "フロリダ半島",
+		"type": "nature",
+		"level": 1,
+		"file": "floridapeninsula.json"
+	},
+	"Baja California Peninsula": {
+		"name": "バハ・カリフォルニア半島",
+		"type": "nature",
+		"level": 1,
+		"file": "californiapeninsula.json"
+	},
+
+	"Tehran": {
+		"name": "テヘラン",
+		"answer": "イラン・イスラム共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "tehran.json"
+	},
+	"Baghdad": {
+		"name": "バグダード",
+		"answer": "イラク共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "baghdad.json"
+	},
+	"Jakarta": {
+		"name": "ジャカルタ",
+		"answer": "インドネシア共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "jakarta.json"
+	},
+	"Bangkok": {
+		"name": "バンコク",
+		"answer": "タイ王国",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "bangkok.json"
+	},
+	"Cairo": {
+		"name": "カイロ",
+		"answer": "エジプト・アラブ共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 6,
+		"file": "cairo.json"
+	},
+	"Kinshasa": {
+		"name": "キンシャサ",
+		"answer": "コンゴ民主共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "kinshasa.json"
+	},
+	"Johannesburg": {
+		"name": "ヨハネスブルグ",
+		"answer": "南アフリカ共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "johannesburg.json"
+	},
+	"Vienna": {
+		"name": "ウィーン",
+		"answer": "オーストリア共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 8,
+		"file": "vienna.json"
+	},
+	"Saint Petersburg": {
+		"name": "サンクトペテルブルク",
+		"answer": "ロシア連邦",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "saintpetersburg.json"
+	},
+	"Houston": {
+		"name": "ヒューストン",
+		"answer": "アメリカ合衆国",
+		"onetime": true,
+		"type": "city",
+		"level": 9,
+		"file": "houston.json"
+	},
+	"Montreal": {
+		"name": "モントリオール",
+		"answer": "カナダ",
+		"onetime": true,
+		"type": "city",
+		"level": 8,
+		"file": "montreal.json"
+	},
+	"Kyiv": {
+		"name": "キエフ",
+		"answer": "ウクライナ",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "kyiv.json"
+	},
+	"Pyongyang": {
+		"name": "平壌",
+		"answer": "朝鮮民主主義人民共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 6,
+		"file": "pyongyang.json"
+	},
+	"Melbourne": {
+		"name": "メルボルン",
+		"answer": "オーストラリア連邦",
+		"onetime": true,
+		"type": "city",
+		"level": 9,
+		"file": "melbourne.json"
+	},
+	"Sydney": {
+		"name": "シドニー",
+		"answer": "オーストラリア連邦",
+		"onetime": true,
+		"type": "city",
+		"level": 8,
+		"file": "sydney.json"
+	},
+	"Bogota": {
+		"name": "ボゴタ",
+		"answer": "コロンビア共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "bogota.json"
+	},
+	"Brussels": {
+		"name": "ブリュッセル",
+		"answer": "ベルギー王国",
+		"onetime": true,
+		"type": "city",
+		"level": 9,
+		"file": "brussels.json"
+	},
+	"Sao Paulo": {
+		"name": "サンパウロ",
+		"answer": "ブラジル連邦共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "saopaulo.json"
+	},
+	"Rio de Janeiro": {
+		"name": "リオデジャネイロ",
+		"answer": "ブラジル連邦共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 10,
+		"file": "riodejaneiro.json"
+	},
+	"Lima": {
+		"name": "リマ",
+		"answer": "ペルー共和国",
+		"onetime": true,
+		"type": "city",
+		"level": 11,
+		"file": "lima.json"
+	},
+
+	"Lake Ladoga": {
+		"name": "ラドガ湖",
+		"type": "lake",
+		"level": 9,
+		"file": "ladoga.json"
+	},
+	"Lake Onega": {
+		"name": "オネガ湖",
+		"type": "lake",
+		"level": 10,
+		"file": "onega.json"
+	},
+	"Rybinsk Reservoir": {
+		"name": "ルイビンスク湖",
+		"type": "lake",
+		"level": 10,
+		"file": "rybinsk.json"
+	},
+	"Malawi": {
+		"name": "マラウイ湖",
+		"type": "lake",
+		"level": 6,
+		"file": "malawi.json"
+	},
+	"Lake Balkhash": {
+		"name": "バルハシ湖",
+		"type": "lake",
+		"level": 7,
+		"file": "balkhash.json"
+	},
+	"Lake Winnipeg": {
+		"name": "ウィニペグ湖",
+		"type": "lake",
+		"level": 10,
+		"file": "winnipeg.json"
+	},
+	"Great Bear Lake": {
+		"name": "グレートベア湖",
+		"type": "lake",
+		"level": 5,
+		"file": "greatbear.json"
+	},
+	"Great Slave Lake": {
+		"name": "グレートスレーブ湖",
+		"type": "lake",
+		"level": 5,
+		"file": "greatslave.json"
+	},
+	"Lake Michigan": {
+		"name": "ミシガン湖",
+		"type": "lake",
+		"level": 2,
+		"file": "lakemichigan.json"
+	},
+	"Lake Superior": {
+		"name": "スペリオル湖",
+		"type": "lake",
+		"level": 2,
+		"file": "lakesuperior.json"
+	},
+	"Lake Huron": {
+		"name": "ヒューロン湖",
+		"type": "lake",
+		"level": 2,
+		"file": "lakehuron.json"
+	},
+	"Lake Erie": {
+		"name": "エリー湖",
+		"type": "lake",
+		"level": 4,
+		"file": "lakeerie.json"
+	},
+	"Lake Ontario": {
+		"name": "オンタリオ湖",
+		"type": "lake",
+		"level": 3,
+		"file": "lakeontario.json"
+	},
+	"Great Lakes": {
+		"name": "五大湖",
+		"type": "lake",
+		"level": 0,
+		"file": "greatlakes.json"
+	},
+	"No1FreshLake": {
+		"name": "世界最大の淡水湖",
+		"answer": "スペリオル湖",
+		"type": "guinness",
+		"level": 4,
+		"file": "lakesuperior.json"
+	},
+	"Lake Nicaragua": {
+		"name": "ニカラグア湖",
+		"type": "lake",
+		"level": 9,
+		"file": "lakenicaragua.json"
+	},
+	"Lake Kariba": {
+		"name": "カリバ湖",
+		"type": "lake",
+		"level": 11,
+		"file": "lakekariba.json"
+	},
+
+	"No1SmallIsland": {
+		"name": "世界で一番小さい島",
+		"answer": "沖ノ鳥島",
+		"type": "guinness",
+		"level": 11,
+		"file": "no1smallisland.json"
+	},
+	"No1BigSea": {
+		"name": "世界で一番広い海",
+		"answer": "太平洋",
+		"type": "guinness",
+		"level": 0,
+		"file": "pacificocean.json"
+	},
+	"No1WideRiver": {
+		"name": "世界一幅の広い川",
+		"answer": "ラプラタ川",
+		"type": "guinness",
+		"level": 3,
+		"file": "no1wideriver.json"
+	},
+	"No1BigReef": {
+		"name": "世界最大のサンゴ礁",
+		"answer": "グレート・バリア・リーフ",
+		"type": "guinness",
+		"level": 1,
+		"file": "greatbarrierreef.json"
+	},
+	"Great Barrier Reef": {
+		"name": "グレート・バリア・リーフ",
+		"type": "nature",
+		"level": 0,
+		"file": "greatbarrierreef.json"
+	},
+	"No1ManyPeople": {
+		"name": "世界一人口の多い国",
+		"answer": "中華人民共和国",
+		"type": "guinness",
+		"level": 0,
+		"file": "china.json"
+	},
+	"No1ManyDensity": {
+		"name": "世界一人口密度の高い国",
+		"answer": "マカオ",
+		"type": "guinness",
+		"level": 7,
+		"file": "macau.json"
+	},
+	"Macau": {
+		"name": "マカオ",
+		"type": "country",
+		"level": 4,
+		"file": "macau.json"
+	},
+	
+	"Aegean Sea": {
+		"name": "エーゲ海",
+		"type": "sea",
+		"level": 3,
+		"file": "aegeansea.json"
+	},
+	"Skagerrak": {
+		"name": "スカゲラク海峡",
+		"type": "sea",
+		"level": 8,
+		"file": "skagerrak.json"
+	},
+	"Kattegat": {
+		"name": "カテガット海峡",
+		"type": "sea",
+		"level": 8,
+		"file": "kattegat.json"
+	},
+	"Strait of Dover": {
+		"name": "ドーバー海峡",
+		"type": "sea",
+		"level": 7,
+		"file": "straitofdover.json"
+	},
+	"Strait of Gibraltar": {
+		"name": "ジブラルタル海峡",
+		"type": "sea",
+		"level": 7,
+		"file": "gibraltar.json"
+	},
+	"Bosporus": {
+		"name": "ボスポラス海峡",
+		"type": "sea",
+		"level": 9,
+		"file": "bosporus.json"
+	},
+	"Dardanelles": {
+		"name": "ダーダネルス海峡",
+		"type": "sea",
+		"level": 10,
+		"file": "dardanelles.json"
+	},
+	"Strait of Bab el Mandeb": {
+		"name": "バブ・エル・マンデブ海峡",
+		"type": "sea",
+		"level": 6,
+		"file": "babelmandeb.json"
+	},
+	"Strait of Hormuz": {
+		"name": "ホルムズ海峡",
+		"type": "sea",
+		"level": 5,
+		"file": "hormuz.json"
+	},
+	"Persian Gulf": {
+		"name": "ペルシア湾",
+		"type": "sea",
+		"level": 2,
+		"file": "persiangulf.json"
+	},
+	"Strait of Malacca": {
+		"name": "マラッカ海峡",
+		"type": "sea",
+		"level": 10,
+		"file": "malacca.json"
+	},
+	"Lombok Strait": {
+		"name": "ロンボク海峡",
+		"type": "sea",
+		"level": 11,
+		"file": "lombokstrait.json"
+	},
+	"Strait of Magellan": {
+		"name": "マゼラン海峡",
+		"type": "sea",
+		"level": 4,
+		"file": "magellan.json"
+	}
+	
+}

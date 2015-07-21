@@ -1,0 +1,2285 @@
+{
+	"earth": {
+		"cloud_texture_l": "cloud_1l.png",
+		"cloud_texture_r": "cloud_1r.png",
+		"atmos_texture": "atmos.png",
+		"air_texture": "air.png",
+		"earth_appearance": [
+			[ [ "earth_1l.png", "earth_1r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_2l.png", "earth_2r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_3l.png", "earth_3r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_4l.png", "earth_4r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_5l.png", "earth_5r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_6l.png", "earth_6r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_7l.png", "earth_7r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_8l.png", "earth_8r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_9l.png", "earth_9r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_10l.png", "earth_10r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_11l.png", "earth_11r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_12l.png", "earth_12r.png" ], true, true, "atmos.png", "air.png" ],
+			[ [ "earth_nightl.png", "earth_nightr.png" ], false, true, "atmos_n.png", "air_n.png" ],
+			[ [ "worldmap_l.png", "worldmap_r.png" ], false, false, "atmos.png", "air.png"]			
+		],
+		"h_div": 64,
+		"v_div": 32,
+		"radius": 1000,
+		"cloud_scale": 1.008,
+		"cloud_shadow": 0.6,
+		"air_scale": 1.06,
+		"atmos_scale": 1.005,
+		"rotate": -2
+	},
+
+	"cloud_dist_max": 1800,
+	"cloud_dist_min": 1450,
+	"cloud_alpha_max": 1.0,
+	"cloud_alpha_min": 0.18,
+
+	"star_num": 200,
+	"star_radius": 9500,
+	"star_col": [
+		[ 1.0, 1.0, 1.0 ],
+		[ 0.9, 1.0, 1.0 ],
+		[ 0.5, 1.0, 1.0 ],
+		[ 0.7, 0.7, 0.8 ],
+		[ 0.5, 0.5, 0.7 ],
+
+		[ 0.0, 0.5, 1.0 ],
+		[ 0.0, 0.8, 1.0 ],
+		[ 0.0, 1.0, 1.0 ],
+
+		[ 1.0, 1.0, 0.5 ],
+		[ 1.0, 1.0, 0.7 ]
+	],
+	
+	"stardust_num": 200,
+	"stardust_speed": 2500,
+	"stardust_easing": [
+		[ 0, 1, 0.25 ],
+		[ 1, 1, 11.5 ],
+		[ 1, 0, 1.0 ]
+	],
+	
+	"camera": {
+		"angle": 65.0,
+		"near": 100,
+		"far": 10000,
+		"dist": 2000,
+		"pitch_max": 65
+	},
+
+	"game": {
+		"near_z": 1230,
+		"far_z": 7000,
+		"rot_speed": 800,
+		"zoom_speed": 1.3,
+		"decrease": 9.5,
+		"dec_z": 2000,
+		"bounce_near": 20,
+		"bounce_far": 40,
+		"time": [ 90, 60, -1 ],
+		"question": [ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, -1 ],
+		"ans_time": [ 20, 18, 16, 14, 12, 10, 10, 10, 10, 10, 10, 10 ],
+		"q_refresh_delay": [ 1.0, 0.98, 0.96, 0.94, 0.92, 0.9, 0.86, 0.82, 0.76, 0.7, 0.7, 0.7 ],
+		"level_ofs": [ 0, 0, 0 ],
+		"extend_rate": [ 0.25, 0.5, 0.0 ],
+		"touch": 0.1,
+		"touch_len": 30,
+		"touch_radius": 0.007,
+		"places": "devdata/places.json",
+		"types": [
+			"country",
+			"city",
+			"heritage",
+			"nature",
+			"sea",
+			"lake",
+			"company",
+			"guinness",
+			"knowledge"
+		],
+
+		"rank_konahen": 0.25,
+		"rank_just": 1.3,
+		"rank_just_combo": 3.0,
+		"rank_miss": -0.4,
+		"rank_tap": -0.4,
+		"rank_time": -0.4,
+
+		"widgets": {
+			"gamestart" : {
+				"pos": [0, 0],
+				"size": [512, 79],
+				"uv": [0, 93],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game2.png"
+			},
+
+			"gameover" : {
+				"pos": [0, 50],
+				"size": [512, 93],
+				"uv": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game2.png"
+			},
+			
+			"timeremain": {
+				"pos": [20, 135],
+				"center": [0, 0],
+				"x_layout": -1,
+				"y_layout": -1,
+				"size": [174, 32],
+				"uv": [210, 36],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"konahen": {
+				"pos": [20, 245],
+				"center": [0, 0],
+				"x_layout": -1,
+				"y_layout": -1,
+				"size": [120, 35],
+				"uv": [210, 1],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"level": {
+				"pos": [20, 355],
+				"center": [0, 0],
+				"x_layout": -1,
+				"y_layout": -1,
+				"size": [72, 35],
+				"uv": [329, 1],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"distance": {
+				"pos": [-153, 268],
+				"center": [0, 0],
+				"x_layout": 1,
+				"y_layout": -1,
+				"size": [128, 31],
+				"uv": [384, 38],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"km": {
+				"pos": [-70, 235],
+				"center": [0, 0],
+				"x_layout": 1,
+				"y_layout": -1,
+				"size": [43, 33],
+				"uv": [260, 73],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"down": {
+				"pos": [-220, 236],
+				"center": [0, 0],
+				"x_layout": 1,
+				"y_layout": -1,
+				"size": [33, 23],
+				"uv": [368, 113],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"up": {
+				"pos": [-225, 236],
+				"center": [0, 0],
+				"x_layout": 1,
+				"y_layout": -1,
+				"size": [33, 23],
+				"uv": [216, 74],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			
+			"levelup" : {
+				"pos": [0, -45],
+				"y_layout": 1,
+				"size": [231, 59],
+				"uv": [0, 253],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game2.png"
+			},
+			"hurryup" : {
+				"pos": [0, -45],
+				"y_layout": 1,
+				"size": [239, 59],
+				"uv": [234, 253],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game2.png"
+			},
+			"time_short" : {
+				"pos": [0, -45],
+				"y_layout": 1,
+				"size": [452, 60],
+				"uv": [0, 312],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game2.png"
+			},
+			"dobest" : {
+				"pos": [0, -45],
+				"y_layout": 1,
+				"size": [501, 50],
+				"uv": [0, 371],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game2.png"
+			},
+			"hint" : {
+				"pos": [0, -45],
+				"y_layout": 1,
+				"size": [480, 50],
+				"uv": [3, 423],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game2.png"
+			},
+			
+			"just": {
+				"pos": [20, 495],
+				"x_layout": -1,
+				"y_layout": -1,
+				"size": [87, 53],
+				"center": [0, 30],
+				"uv": [210, 105],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"just_x": {
+				"pos": [110, 508],
+				"x_layout": -1,
+				"y_layout": -1,
+				"size": [25, 29],
+				"center": [0, 30],
+				"uv": [431, 6],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+
+			"result_title": {
+				"pos": [0, -257],
+				"size": [289, 55],
+				"uv": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_konahen": {
+				"pos": [0, 0],
+				"center": [131, 21],
+				"size": [131, 39],
+				"uv": [1, 58],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_level": {
+				"pos": [0, 0],
+				"center": [81, 20],
+				"size": [81, 39],
+				"uv": [1, 98],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_just": {
+				"pos": [0, 0],
+				"center": [69, 18],
+				"size": [69, 41],
+				"uv": [215, 60],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_just_max": {
+				"pos": [0, 0],
+				"center": [178, 19],
+				"size": [178, 41],
+				"uv": [215, 60],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_tap": {
+				"pos": [0, 0],
+				"center": [58, 18],
+				"size": [58, 43],
+				"uv": [173, 101],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_tap_avg": {
+				"pos": [0, 0],
+				"center": [124, 18],
+				"size": [124, 43],
+				"uv": [173, 101],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_miss": {
+				"pos": [0, 0],
+				"center": [72, 19],
+				"size": [72, 43],
+				"uv": [399, 60],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_avg_answer": {
+				"pos": [0, 0],
+				"center": [262, 18],
+				"size": [262, 43],
+				"uv": [233, 101],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_score": {
+				"pos": [0, 0],
+				"center": [89, 18],
+				"size": [89, 36],
+				"uv": [83, 101],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"result_rank": {
+				"pos": [0, 0],
+				"center": [213, 18],
+				"size": [213, 37],
+				"uv": [0, 58],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+
+			"SSS": {
+				"pos": [0, 0],
+				"size": [83, 46],
+				"uv": [2, 145],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"S": {
+				"pos": [0, 0],
+				"size": [30, 46],
+				"uv": [96, 145],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"AAA": {
+				"pos": [0, 0],
+				"size": [93, 46],
+				"uv": [135, 145],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"AA": {
+				"pos": [0, 0],
+				"size": [64, 46],
+				"uv": [236, 145],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"A": {
+				"pos": [0, 0],
+				"size": [34, 46],
+				"uv": [308, 145],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"A-": {
+				"pos": [0, 0],
+				"size": [51, 46],
+				"uv": [350, 145],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"B": {
+				"pos": [0, 0],
+				"size": [30, 46],
+				"uv": [414, 145],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"B-": {
+				"pos": [0, 0],
+				"size": [47, 46],
+				"uv": [457, 145],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"C": {
+				"pos": [0, 0],
+				"size": [31, 46],
+				"uv": [3, 193],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"C-": {
+				"pos": [0, 0],
+				"size": [46, 46],
+				"uv": [45, 193],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"D": {
+				"pos": [0, 0],
+				"size": [31, 46],
+				"uv": [103, 193],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"D-": {
+				"pos": [0, 0],
+				"size": [49, 46],
+				"uv": [148, 193],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"E": {
+				"pos": [0, 0],
+				"size": [31, 46],
+				"uv": [209, 193],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"E-": {
+				"pos": [0, 0],
+				"size": [43, 46],
+				"center": [0, 0],
+				"uv": [251, 193],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"F": {
+				"pos": [0, 0],
+				"size": [30, 46],
+				"uv": [307, 193],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"F-": {
+				"pos": [0, 0],
+				"size": [43, 46],
+				"uv": [348, 193],
+				"center": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+
+			"ans_time": {
+				"pos": [-70, 175],
+				"x_layout": 1,
+				"y_layout": -1,
+				"size": [92, 93],
+				"uv": [418, 110],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			}
+		}
+	},
+
+	"start_delay": 4.8,
+	"start_dist": 10000,
+	"start_time": 8,
+	"start_angle": [35, -100],
+	"touch_margin": 20,
+
+	"toucheft": {
+		"scale": 10,
+		"touch_in": 1.1,
+		"touch_out": 0.6,
+		"touch_ans": 2.0,
+		"blink_speed": 3.5
+	},
+
+	"gameinfo": {
+		"ease_in": [
+			[ -1.0, 0.0, 0.0, 1.0, 0.8 ],
+			[ 0.0, 1.0, 0.0, 1.0, 1.0 ]
+		],
+		"ease_out": [
+			[ 0.0, 1.0, 1.0, 0.0, 0.8 ]
+		],
+		"delay": 0.25
+	},
+	
+	"reset_camera": {
+		"dist": [
+			1, 1.05, 1.1,
+			0.98, 0.95
+		]
+	},
+	
+	"title": {
+		"intro_widgets": {
+			"intro_1": {
+				"pos": [0, -110],
+				"size": [198, 38],
+				"uv": [0, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/intro.png"
+			},
+			"intro_2": {
+				"pos": [0, -30],
+				"size": [278, 35],
+				"uv": [0, 43],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/intro.png"
+			},
+			"intro_3": {
+				"pos": [0, 20],
+				"size": [465, 37],
+				"uv": [2, 82],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/intro.png"
+			},
+			"intro_4": {
+				"pos": [0, 90],
+				"size": [250, 41],
+				"uv": [1, 118],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/intro.png"
+			}
+		},
+		"intro_list": [ "intro_1", "intro_2", "intro_3", "intro_4" ],
+		
+		"intro_widgets_en": {
+			"intro_1": {
+				"pos": [0, -90],
+				"size": [292, 42],
+				"uv": [0, 161],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/intro.png"
+			},
+			"intro_2": {
+				"pos": [0, 10],
+				"size": [406, 41],
+				"uv": [0, 206],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/intro.png"
+			},
+			"intro_3": {
+				"pos": [0, 80],
+				"size": [283, 49],
+				"uv": [0, 251],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/intro.png"
+			}
+		},
+		"intro_list_en": [ "intro_1", "intro_2", "intro_3" ],
+
+		"intro_delay": 0.4,
+		"intro_easing": [
+			[ 0, 0, 1, 0, 0.5 ],
+			[ 1, 0, 1, 0, 1.7 ],
+			[ 1, 0, 1, 1, 1.5 ],
+			[ 1, 1, 1, 1, 4.0 ],
+			[ 1, 1, 0, 0, 1.0 ],
+			[ 0, 0, 0, 0, 0.1 ]
+		],
+
+		"logo_widgets": {
+			"k": {
+				"pos": [-245, -70],
+				"size": [80, 105],
+				"uv": [111, 2],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"o": {
+				"pos": [-160, -72],
+				"size": [106, 106],
+				"uv": [2, 2],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"n": {
+				"pos": [-65, -70],
+				"size": [80, 105],
+				"uv": [195, 2],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"a": {
+				"pos": [15, -70],
+				"size": [83, 105],
+				"uv": [278, 2],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"h": {
+				"pos": [95, -70],
+				"size": [73, 105],
+				"uv": [4, 110],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"e": {
+				"pos": [173, -70],
+				"size": [68, 105],
+				"uv": [85, 110],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"nn": {
+				"pos": [250, -70],
+				"size": [80, 105],
+				"uv": [195, 2],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			
+			"konahen_kana": {
+				"pos": [0, 5],
+				"size": [380, 28],
+				"uv": [0, 484],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"ngs": {
+				"pos": [255, 38],
+				"size": [65, 17],
+				"uv": [443, 167],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"lite": {
+				"pos": [-162, -155],
+				"size": [84, 62],
+				"uv": [347, 156],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			}
+		},
+		"logo_delay": 0.05,
+		"logo2_easing": [
+			[ 0.0, 0.0, 2.0 ],
+			[ 0.0, 1.0, 2.5 ]
+		],
+		"logo2_start_easing": [
+			[ 1.0, 0.0, 1.0 ]
+		],
+		"logo2_end_easing": [
+			[ 1.0, 0.0, 0.8 ]
+		],
+
+		"ease_k": [
+			[ 0.0, 0.0, 0.0,  0.0, 0.0, 0.0,  1.2 ],
+			[ -200.0, 1.0, 0.0,  0.0, 1.0, 1.0,  1.5 ]
+		],
+		"ease_o": [
+			[ 0.0, 0.0, 0.0,  0.0, 0.0, 0.0,  0.5 ],
+			[ -50.0, 3.0, 0.0,  0.0, 1.0, 1.0,  2.5 ]
+		],
+		"ease_n": [
+			[ 0.0, 0.0, 0.0,  0.0, 0.0, 0.0,  1.2 ],
+			[ 500.0, 1.0, 0.0,  0.0, 1.0, 1.0,  1.5 ]
+		],
+		"ease_a": [
+			[ 0.0, 0.0, 0.0,  0.0, 0.0, 0.0,  1.3 ],
+			[ 500.0, 1.0, 0.0,  0.0, 1.0, 1.0,  1.5 ]
+		],
+		"ease_h": [
+			[ 0.0, 0.0, 0.0,  0.0, 0.0, 0.0,  1.4 ],
+			[ 500.0, 1.0, 0.0,  0.0, 1.0, 1.0,  1.5 ]
+		],
+		"ease_e": [
+			[ 0.0, 0.0, 0.0,  0.0, 0.0, 0.0,  1.5 ],
+			[ 500.0, 1.0, 0.0,  0.0, 1.0, 1.0,  1.5 ]
+		],
+		"ease_nn": [
+			[ 0.0, 0.0, 0.0,  0.0, 0.0, 0.0,  1.6 ],
+			[ 500.0, 1.0, 0.0,  0.0, 1.0, 1.0,  1.5 ]
+		],
+
+		"ease_start_k": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.2 ],
+			[ 0.0, 1.0, 1.0,  -200.0, 1.0, 0.0,  0.8 ]
+		],
+		"ease_start_o": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.3 ],
+			[ 0.0, 1.0, 1.0,  0.0, 1.2, 0.0,  0.6 ]
+		],
+		"ease_start_n": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.2 ],
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.8 ]
+		],
+		"ease_start_a": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.15 ],
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.8 ]
+		],
+		"ease_start_h": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.1 ],
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.8 ]
+		],
+		"ease_start_e": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.05 ],
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.8 ]
+		],
+		"ease_start_nn": [
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.8 ]
+		],
+
+		"ease_end_k": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.2 ],
+			[ 0.0, 1.0, 1.0,  -200.0, 1.0, 0.0,  0.7 ]
+		],
+		"ease_end_o": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.3 ],
+			[ 0.0, 1.0, 1.0,  0.0, 1.2, 0.0,  0.5 ]
+		],
+		"ease_end_n": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.2 ],
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.7 ]
+		],
+		"ease_end_a": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.15 ],
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.7 ]
+		],
+		"ease_end_h": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.1 ],
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.7 ]
+		],
+		"ease_end_e": [
+			[ 0.0, 1.0, 1.0,  0.0, 1.0, 1.0,  0.05 ],
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.7 ]
+		],
+		"ease_end_nn": [
+			[ 0.0, 1.0, 1.0,  500.0, 1.0, 0.0,  0.7 ]
+		],
+		
+		"logo_widgets_list": [
+			"k", "o", "n", "a", "h", "e", "nn"
+		],
+
+		"logo_easing": [
+			"ease_k", "ease_o", "ease_n", "ease_a", "ease_h", "ease_e", "ease_nn"
+		],
+		"logo_start_easing": [
+			"ease_start_k", "ease_start_o", "ease_start_n", "ease_start_a", "ease_start_h", "ease_start_e", "ease_start_nn"
+		],
+		"logo_end_easing": [
+			"ease_end_k", "ease_end_o", "ease_end_n", "ease_end_a", "ease_end_h", "ease_end_e", "ease_end_nn"
+		],
+
+		"copy_widgets": {
+			"copyright": {
+				"pos": [0, -20],
+				"y_layout": 1,
+				"size": [375, 27],
+				"uv": [2, 454],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			}
+		},
+		"copy_delay": 2.5,
+		"copy_in_time": 2.0,
+		"copy_out_time": 1.5,
+
+		"start_widgets": {
+			"play": {
+				"pos": [0, 25],
+				"size": [196, 59],
+				"uv": [0, 215],
+				"col": [1, 1, 1, 1],
+				"id": 0,
+				"texture": "devdata/title.png"
+			},
+			"normal": {
+				"pos": [0, 25],
+				"size": [196, 59],
+				"uv": [0, 274],
+				"col": [1, 1, 1, 1],
+				"id": 0,
+				"texture": "devdata/title.png"
+			},
+			"advanced": {
+				"pos": [0, 90],
+				"size": [196, 59],
+				"uv": [0, 332],
+				"col": [1, 1, 1, 1],
+				"id": 1,
+				"texture": "devdata/title.png"
+			},
+			"survival": {
+				"pos": [0, 155],
+				"size": [196, 59],
+				"uv": [0, 391],
+				"col": [1, 1, 1, 1],
+				"id": 2,
+				"texture": "devdata/title.png"
+			},
+			"review": {
+				"pos": [0, 25],
+				"size": [197, 59],
+				"uv": [196, 322],
+				"col": [1, 1, 1, 1],
+				"id": 3,
+				"texture": "devdata/title.png"
+			},
+			"getfull": {
+				"pos": [0, 25],
+				"size": [197, 57],
+				"uv": [196, 382],
+				"col": [1, 1, 1, 1],
+				"id": 4,
+				"texture": "devdata/title.png"
+			}
+		},
+		"start_btneft_time": 0.15,
+		"start_btneft_scale": 1.25,
+		"start_delay": 4.0,
+
+		"credits_widgets": {
+			"credits": {
+				"pos": [-60, -70],
+				"x_layout": 1,
+				"y_layout": 1,
+				"size": [78, 81],
+				"uv": [434, 81],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			}
+		},
+		"credits_delay": 4.0,
+
+		"sound_widgets": {
+			"sound" : {
+				"pos": [-60, -170],
+				"x_layout": 1,
+				"y_layout": 1,
+				"size": [70, 82],
+				"uv": [442, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"sound_on" : {
+				"pos": [-20, -196],
+				"center": [0, 0],
+				"x_layout": 1,
+				"y_layout": 1,
+				"size": [186, 35],
+				"uv": [196, 216],
+				"col": [1, 1, 1, 0],
+				"texture": "devdata/title.png"
+			},
+			"sound_off" : {
+				"pos": [-20, -196],
+				"center": [0, 0],
+				"x_layout": 1,
+				"y_layout": 1,
+				"size": [186, 35],
+				"ofs_size": [10, 20],
+				"uv": [196, 251],
+				"col": [1, 1, 1, 0],
+				"texture": "devdata/title.png"
+			}
+		},
+		"sound_delay": 4.1,
+		"sound_menu_ofs": -190,
+
+		"bgm_onoff": {
+			"widgets":
+			{
+				"on" : {
+					"pos": [-60, -270],
+					"x_layout": 1,
+					"y_layout": 1,
+					"size": [57, 78],
+					"uv": [223, 114],
+					"col": [1, 1, 1, 1],
+					"texture": "devdata/title.png"
+				},
+				"off" : {
+					"pos": [-60, -270],
+					"x_layout": 1,
+					"y_layout": 1,
+					"size": [57, 78],
+					"uv": [282, 114],
+					"col": [1, 1, 1, 1],
+					"texture": "devdata/title.png"
+				}
+			},
+			"ease_in": [
+				[   0, 0, 0, 0, 4.2 ],
+				[ 100, 0, 0, 1, 1.5 ]
+			],
+			"ease_out": [
+				[   0, 1, 100, 0, 0.5 ]
+			]
+		},
+
+		"se_onoff": {
+			"widgets": {
+				"on" : {
+					"pos": [-60, -170],
+					"x_layout": 1,
+					"y_layout": 1,
+					"size": [57, 78],
+					"uv": [162, 114],
+					"col": [1, 1, 1, 1],
+					"texture": "devdata/title.png"
+				},
+				"off" : {
+					"pos": [-60, -170],
+					"x_layout": 1,
+					"y_layout": 1,
+					"size": [57, 78],
+					"uv": [454, 2],
+					"col": [1, 1, 1, 1],
+					"texture": "devdata/title.png"
+				}
+			},
+			"ease_in": [
+				[   0, 0, 0, 0, 4.1 ],
+				[ 100, 0, 0, 1, 1.5 ]
+			],
+			"ease_out": [
+				[   0, 1, 100, 0, 0.6 ]
+			]
+		},
+
+		"earth_widgets": {
+			"earth" : {
+				"pos": [54, -75],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [62, 82],
+				"uv": [380, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			},
+			"e_auto": {
+				"pos": [-47, -50],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [77, 42],
+				"ofs_size": [15, 15],
+				"uv": [434, 192],
+				"col": [1, 1, 1, 1],
+				"id": -1,
+				"texture": "devdata/title.png"
+			},
+			"e_1": {
+				"pos": [-15, -362],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [469, 234],
+				"col": [1, 1, 1, 1],
+				"id": 0,
+				"texture": "devdata/title.png"
+			},
+			"e_2": {
+				"pos": [-15, -310],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [469, 276],
+				"col": [1, 1, 1, 1],
+				"id": 1,
+				"texture": "devdata/title.png"
+			},
+			"e_3": {
+				"pos": [-15, -258],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [469, 318],
+				"col": [1, 1, 1, 1],
+				"id": 2,
+				"texture": "devdata/title.png"
+			},
+			"e_4": {
+				"pos": [-15, -206],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [469, 360],
+				"col": [1, 1, 1, 1],
+				"id": 3,
+				"texture": "devdata/title.png"
+			},
+			"e_5": {
+				"pos": [-15, -154],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [469, 402],
+				"col": [1, 1, 1, 1],
+				"id": 4,
+				"texture": "devdata/title.png"
+			},
+			"e_6": {
+				"pos": [-15, -102],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [469, 444],
+				"col": [1, 1, 1, 1],
+				"id": 5,
+				"texture": "devdata/title.png"
+			},
+			"e_7": {
+				"pos": [-75, -362],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [427, 234],
+				"col": [1, 1, 1, 1],
+				"id": 6,
+				"texture": "devdata/title.png"
+			},
+			"e_8": {
+				"pos": [-75, -310],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [427, 276],
+				"col": [1, 1, 1, 1],
+				"id": 7,
+				"texture": "devdata/title.png"
+			},
+			"e_9": {
+				"pos": [-75, -258],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [427, 318],
+				"col": [1, 1, 1, 1],
+				"id": 8,
+				"texture": "devdata/title.png"
+			},
+			"e_10": {
+				"pos": [-75, -206],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [427, 360],
+				"col": [1, 1, 1, 1],
+				"id": 9,
+				"texture": "devdata/title.png"
+			},
+			"e_11": {
+				"pos": [-75, -154],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [427, 402],
+				"col": [1, 1, 1, 1],
+				"id": 10,
+				"texture": "devdata/title.png"
+			},
+			"e_12": {
+				"pos": [-75, -102],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [42, 42],
+				"ofs_size": [15, 15],
+				"uv": [427, 444],
+				"col": [1, 1, 1, 1],
+				"id": 11,
+				"texture": "devdata/title.png"
+			},
+			"e_n": {
+				"pos": [-46, -414],
+				"x_layout": -1,
+				"y_layout": 1,
+				"size": [44, 43],
+				"ofs_size": [15, 15],
+				"uv": [383, 443],
+				"col": [1, 1, 1, 1],
+				"id": 12,
+				"texture": "devdata/title.png"
+			}
+		},
+		"earth_delay": 4.1,
+		"earth_menu_width": 140,
+		
+		"correct_widgets": {
+			"correct": {
+				"pos": [-205, 35],
+				"x_layout": 1,
+				"y_layout": -1,
+				"size": [113, 32],
+				"uv": [197, 286],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/title.png"
+			}
+		},
+		"correct_ofs_x": 400,
+		"correct_ofs_y": 0,
+		"correct_num_x": 115,
+		"correct_num_y": -3,
+		"correct_time": 1.0,
+		"correct_delay": 5.0,
+		"correct_ease": 1.2,
+		"review_y": 120,
+
+		"start_ease_time": 0.9,
+		
+		"disp_time": 25.0,
+		"delay_exec": 0.6,
+
+		"demo_widgets": {
+			"demoplay": {
+				"pos": [0, 100],
+				"size": [229, 39],
+				"uv": [118, 0],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			}
+		},
+		"demo_delay": 1.0,
+		"demo_time": 45.0,
+		"demo_files": [
+			"replay1",
+			"replay2"
+		],
+
+		"operate_widgets": {
+			"body": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [0, 0],
+				"center": [44, 0],
+				"size": [88, 85],
+				"uv": [2, 213],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"cable": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [0, 0],
+				"center": [9, 109],
+				"size": [26, 64],
+				"uv": [193, 160],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"btn_l": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [0, 0],
+				"center": [44, 48],
+				"size": [44, 48],
+				"uv": [2, 165],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"btn_r": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [0, 0],
+				"center": [0, 48],
+				"size": [44, 48],
+				"uv": [46, 165],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"move_l": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [0, 0],
+				"center": [93, 20],
+				"size": [48, 70],
+				"uv": [91, 162],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"move_r": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [0, 0],
+				"center": [-45, 20],
+				"size": [48, 70],
+				"uv": [145, 162],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			}
+		},
+
+		"opedevice_touch_widgets": {
+			"l_body": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [0, 0],
+				"size": [131, 176],
+				"uv": [3, 308],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"r_body": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [10, -5],
+				"size": [124, 176],
+				"uv": [142, 301],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			
+			"touch": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [-20, -77],
+				"size": [65, 64],
+				"uv": [246, 162],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"l_drag": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [-18, -77],
+				"size": [70, 32],
+				"uv": [246, 227],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"r_drag1": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [-55, -55],
+				"size": [46, 49],
+				"uv": [318, 161],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"r_drag2": {
+				"x_layout": 1,
+				"y_layout": 1,
+				"pos": [-55, -55],
+				"size": [49, 55],
+				"uv": [365, 159],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			}
+		},
+
+		"operate_x": -100,
+		"operate_y": -110,
+		
+		"game_start_delay": 1.2
+	},
+
+	"gameintro": {
+		"widgets": {
+			"rotate" : {
+				"pos": [-140, 240],
+				"size": [77, 28],
+				"uv": [9, 11],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"zoom" : {
+				"pos": [0, 240],
+				"size": [66, 28],
+				"uv": [9, 38],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			"konahen" : {
+				"pos": [150, 240],
+				"size": [110, 28],
+				"uv": [9, 67],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/demo.png"
+			},
+			
+			"rotate_body": {
+				"pos": [-150, 150],
+				"size": [131, 176],
+				"uv": [3, 308],
+				"col": [1, 1, 1, 1],
+				"scale": [ 0.85, 0.85 ],
+				"texture": "devdata/demo.png"
+			},
+			"zoom_body": {
+				"pos": [0, 150],
+				"size": [124, 176],
+				"uv": [142, 301],
+				"col": [1, 1, 1, 1],
+				"scale": [ 0.85, 0.85 ],
+				"texture": "devdata/demo.png"
+			},
+			"konahen_body": {
+				"pos": [150, 150],
+				"size": [131, 176],
+				"uv": [3, 308],
+				"col": [1, 1, 1, 1],
+				"scale": [ 0.85, 0.85 ],
+				"texture": "devdata/demo.png"
+			},
+			
+			"touch": {
+				"pos": [134, 87],
+				"size": [65, 64],
+				"uv": [246, 162],
+				"col": [1, 0, 0, 1],
+				"scale": [ 0.85, 0.85 ],
+				"texture": "devdata/demo.png"
+			},
+			"l_drag": {
+				"pos": [-166, 84],
+				"size": [70, 32],
+				"uv": [246, 227],
+				"col": [1, 0, 0, 1],
+				"scale": [ 0.85, 0.85 ],
+				"texture": "devdata/demo.png"
+			},
+			"r_drag": {
+				"pos": [-33, 100],
+				"size": [46, 49],
+				"uv": [318, 161],
+				"col": [1, 0, 0, 1],
+				"scale": [ 0.85, 0.85 ],
+				"texture": "devdata/demo.png"
+			}
+		},
+		
+		"delay": 0.2,
+		"light": 0.4,
+		"light_st": 1.5,
+		"light_st_delay": 0.05,
+		"light_ed": 0.25,
+		"light_ed_delay": 0.2,
+		"frame": 2.5,
+		"frame_add": 1.5,
+		"frame_num": 5,
+		"alpha": 0.08,
+		"y_ofs": -40,
+		"nextline": 20,
+		"text": [ "intro1", "intro2", "intro3" ],
+
+		"easing": [
+			[ 2.0, 0, 0.95, 1, 0.4 ],
+			[ 0.95, 1, 0.9, 1, 3.6 ]
+		]
+	},
+
+	"gamemenu": {
+		"widgets": {
+			"abort" : {
+				"pos": [-60, -80],
+				"x_layout": 1,
+				"y_layout": 1,
+				"size": [60, 80],
+				"uv": [97, 348],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"abort_ok" : {
+				"pos": [120, -88],
+				"x_layout": 1,
+				"y_layout": 1,
+				"size": [49, 49],
+				"ofs_size": [15, 15],
+				"uv": [49, 347],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"abort_ng" : {
+				"pos": [30, -88],
+				"x_layout": 1,
+				"y_layout": 1,
+				"size": [49, 49],
+				"ofs_size": [15, 15],
+				"uv": [1, 347],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"pause": {
+				"pos": [0, 0],
+				"size": [142, 37],
+				"uv": [209, 158],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			}
+		},
+		"ofs": -200
+	},
+
+	"resetmenu": {
+		"ofs": -200
+	},
+	
+	"gamestart": {
+		"easing": [
+			[ 0, 0, 0, 0, 0.1 ],
+			[ 5, 0, 1, 1, 0.3 ],
+			[ 1, 1, 1, 1, 0.8 ],
+			[ 1, 1, 1, 0, 0.25 ],
+			[ 1, 0, 1, 0, 0.25 ]
+		]
+	},
+
+	"gameover": {
+		"easing": [
+			[ 0, 0, 0, 0, 0.1 ],
+			[ 4, 0, 1, 1, 0.3 ],
+			[ 1, 1, 1, 1, 1.5 ],
+			[ 1, 1, 1, 0, 0.5 ]
+		]
+	},
+
+	"placedisp": {
+		"scale_st": 2.5,
+		"time_ed": 0.6,
+		"ans_scale_st": 2.0,
+		"ans_time_ed": 0.25,
+		"correct_disp": 0.8,
+		"miss_disp": 1.2
+	},
+	
+	"konahen_eft": {
+		"texture": "devdata/game3.png",
+		"just": 0,
+		"miss": false,
+		"rotate": 108,
+		"combo": 0.08,
+		"div": 64,
+		"v": 45,
+		"loop": 2,
+		"height": 0.61,
+		"size": 180,
+		"col": [1, 0, 0],
+		"easing": [
+			[ 0, 0, 1, 1, 0.2 ],
+			[ 1, 1, 1, 1, 0.8 ],
+			[ 1, 1, 1.3, 0, 0.4 ]
+		]
+	},
+	"just_eft": {
+		"texture": "devdata/game4.png",
+		"just": 1,
+		"miss": false,
+		"rotate": 120,
+		"combo": 0.1,
+		"div": 64,
+		"v": 43,
+		"loop": 5,
+		"height": 0.785,
+		"size": 250,
+		"col": [1, 0, 0],
+		"easing": [
+			[ 0, 0, 1, 1, 0.24 ],
+			[ 1, 1, 1, 1, 0.8 ],
+			[ 1, 1, 1.1, 0, 0.4 ]
+		]
+	},
+	"miss_eft": {
+		"texture": "devdata/game5.png",
+		"just": 0,
+		"miss": true,
+		"rotate": 80,
+		"combo": 0.08,
+		"div": 64,
+		"v": 45,
+		"loop": 4,
+		"height": 0.61,
+		"size": 180,
+		"col": [0, 0, 1],
+		"easing": [
+			[ 0, 0, 1, 1, 0.2 ],
+			[ 1, 1, 1, 1, 1.2 ],
+			[ 1, 1, 1.3, 0, 0.4 ]
+		]
+	},
+	"combo_eft": {
+		"texture": "devdata/game6.png",
+		"just": 2,
+		"miss": false,
+		"rotate": 120,
+		"combo": 0.0,
+		"div": 32,
+		"v": 8,
+		"loop": 1,
+		"height": 0.85,
+		"size": 500,
+		"col": [1, 1, 1],
+		"easing": [
+			[ 0.0, 0, 0.18, 1, 0.1 ],
+			[ 0.18, 1, 1.3, 0, 0.7 ]
+		]
+	},
+	
+	"just": {
+		"easing": [
+			[ -180.0, 1.0, 0.0, 1.0, 0.3 ],
+			[ 0.0, 1.0, 0.0, 1.0, 0.7 ],
+			[ 0.0, 1.0, 0.0, 0.0, 0.5 ]
+		],
+		"num_ofs": [22, -9]
+	},
+
+	"distance": {
+		"ofs_x": 240,
+		"num_x": -112,
+		"num_y": -7,
+		"dist_time": 0.6
+	},
+
+	"nsdisp": {
+		"scale": 1.08,
+
+		"n": {
+			"width": 31,
+			"height": 40,
+			"u": 365,
+			"v": 68
+		},
+		"s": {
+			"width": 26,
+			"height": 40,
+			"u": 396,
+			"v": 68
+		},
+
+		"n_jp": {
+			"width": 37,
+			"height": 38,
+			"u": 274,
+			"v": 199
+		},
+		"s_jp": {
+			"width": 38,
+			"height": 38,
+			"u": 317,
+			"v": 199
+		}
+	},
+
+	"equator": {
+		"scale": 1.05,
+		"div": 60,
+		"width": 2
+	},
+	
+	"hintcircle": {
+		"scale": 1.03,
+		"div": 40,
+		"width": 3,
+		"rot_speed": 0.2,
+		"time_ed": 3.0,
+		"hint_count": 6
+	},
+
+	"playtime": {
+		"num_ofs": [0, 33]
+	},
+	"playkonahen": {
+		"num_ofs": [0, 35]
+	},
+	"playlevel": {
+		"num_ofs": [0, 34]
+	},
+
+	"agree": {
+		"widget": {
+			"pos": [0, -65],
+			"y_layout": 1,
+			"size": [120, 63],
+			"uv": [0, 190],
+			"col": [1, 1, 1, 1]
+		},
+		"btneft_scale": 1.25,
+		"btneft_time": 0.15,
+		"lite_ofs": 15
+	},
+
+	"rank_tbl": [
+		"F-",
+		"F",
+		"E-",
+		"E",
+		"D-",
+		"D",
+		"C-",
+		"C",
+		"B-",
+		"B",
+		"A-",
+		"A",
+		"AA",
+		"AAA",
+		"S",
+		"SSS"
+	],
+
+	"results": {
+		"countup": 0.8,
+		"ctup_delay": 0.2,
+		"input_delay": 0.1,
+		"ofs_x": 70,
+		"ofs_y": -196,
+		"next_y": 43,
+		"num_pos": [15, -22],
+		"rank_pos": [16, -23],
+
+		"easing_in": [
+			[ 1.8, 0.0, 1.0, 1.0, 0.8 ]
+		],
+		"easing_out": [
+			[ 1.0, 1.0, 0.8, 0.0, 1.5 ]
+		],
+		"easing_in_lite": [
+			[ 1.8, 0.0, 0.95, 1.0, 0.8 ]
+		],
+		"easing_out_lite": [
+			[ 0.95, 1.0, 0.8, 0.0, 1.5 ]
+		],
+
+		"ease_konahen": [
+			[ 0.0, 0.0, 0.3 ],
+			[ 0.0, 1.0, 0.8 ]
+		],
+		"ease_level": [
+			[ 0.0, 0.0, 0.4 ],
+			[ 0.0, 1.0, 0.8 ]
+		],
+		"ease_just": [
+			[ 0.0, 0.0, 0.5 ],
+			[ 0.0, 1.0, 0.8 ]
+		],
+		"ease_just_max": [
+			[ 0.0, 0.0, 0.6 ],
+			[ 0.0, 1.0, 0.8 ]
+		],
+		"ease_tap_avg": [
+			[ 0.0, 0.0, 0.7 ],
+			[ 0.0, 1.0, 0.5 ]
+		],
+		"ease_avg_answer": [
+			[ 0.0, 0.0, 0.8 ],
+			[ 0.0, 1.0, 0.8 ]
+		],
+		"ease_miss": [
+			[ 0.0, 0.0, 0.9 ],
+			[ 0.0, 1.0, 0.8 ]
+		],
+		"ease_score": [
+			[ 0.0, 0.0, 1.1 ],
+			[ 0.0, 1.0, 1.0 ]
+		],
+		"ease_rank": [
+			[ 0.0, 3.0, 0.0, 3.0, 2.0 ],
+			[ 0.0, 3.0, 1.0, 1.0, 0.7 ],
+			[ 1.0, 1.0, 1.0, 1.0, 0.5 ]
+		],
+
+		"fame_time": 0.6,
+		"fame_time_ofs": 0.2,
+		"fame_scale": 2.5,
+		"lite_ofs": -30
+	},
+
+	"ranking": {
+		"title": [
+			"Hall of Fame",
+			"ADVANCED Hall of Fame",
+			"SURVIVAL Hall of Fame"
+		],
+		"col_demo_time": 0.6,
+		"skip_delay": 0.1,
+		"time_ed": 3,
+		"demo_y_ofs": 0,
+		"disp_time": 15.5,
+		"lite_ofs": -40
+	},
+
+	"review": {
+		"widgets": {
+			"bar" : {
+				"pos": [0, -70],
+				"size": [23, 45],
+				"uv": [2, 468],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"ofs_size": [ 0, 40 ],
+				"texture": "devdata/game.png"
+			},
+			"btn_big" : {
+				"pos": [0, -70],
+				"size": [22, 22],
+				"uv": [393, 178],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"texture": "devdata/game.png"
+			},
+			"btn_small" : {
+				"pos": [0, -70],
+				"size": [10, 10],
+				"uv": [392, 164],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"texture": "devdata/game.png"
+			},
+			"btn_mid" : {
+				"pos": [0, -70],
+				"size": [12, 12],
+				"uv": [402, 165],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"texture": "devdata/game.png"
+			},
+			"center_up" : {
+				"pos": [0, -30],
+				"size": [38, 22],
+				"uv": [376, 140],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"texture": "devdata/game.png"
+			},
+			"center_down" : {
+				"pos": [0, -104],
+				"size": [38, 22],
+				"uv": [376, 140],
+				"scale": [ 1, -1 ],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"texture": "devdata/game.png"
+			},
+			"left" : {
+				"pos": [-200, -70],
+				"size": [23, 39],
+				"uv": [351, 139],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"texture": "devdata/game.png"
+			},
+			"right" : {
+				"pos": [200, -70],
+				"size": [23, 39],
+				"uv": [351, 139],
+				"scale": [ -1, 1 ],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"texture": "devdata/game.png"
+			},
+			"left_arrow": {
+				"pos": [-100, -70],
+				"size": [59, 40],
+				"uv": [208, 202],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"texture": "devdata/game.png"
+			},
+			"right_arrow": {
+				"pos": [100, -70],
+				"scale": [-1, 1],
+				"size": [59, 40],
+				"uv": [208, 202],
+				"col": [1, 1, 1, 1],
+				"y_layout": 1,
+				"texture": "devdata/game.png"
+			},
+
+			"konahen": {
+				"pos": [20, -135],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [120, 35],
+				"uv": [210, 1],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"/" : {
+				"pos": [88, -98],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [24, 40],
+				"uv": [182, 82],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"level": {
+				"pos": [20, -50],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [72, 35],
+				"uv": [329, 1],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			"type": {
+				"pos": [20, 42],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [64, 37],
+				"uv": [446, 68],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/game.png"
+			},
+			
+			"country": {
+				"pos": [20, 78],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [138, 51],
+				"uv": [2, 241],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"city": {
+				"pos": [20, 78],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [73, 51],
+				"uv": [147, 241],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"heritage": {
+			"pos": [20, 78],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [148, 51],
+				"uv": [226, 241],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"nature": {
+				"pos": [20, 78],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [120, 51],
+				"uv": [382, 241],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"company": {
+				"pos": [20, 78],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [159, 51],
+				"uv": [2, 292],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"guinness": {
+				"pos": [20, 78],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [205, 51],
+				"uv": [165, 292],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"lake": {
+				"pos": [20, 78],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [82, 51],
+				"uv": [380, 292],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"knowledge": {
+				"pos": [20, 78],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [186, 51],
+				"uv": [2, 343],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"sea": {
+				"pos": [20, 78],
+				"center": [0, 0],
+				"x_layout": -1,
+				"size": [66, 51],
+				"uv": [193, 343],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			}
+		},
+
+		"easing_konahen": [
+			[ -150.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.7 ]
+		],
+		"easing_level": [
+			[ -150.0, 0.0, -150.0, 0.0, 0.05 ],
+			[ -150.0, 0.0, 0.0, 1.0, 0.7 ]
+		],
+		"easing_type": [
+			[ -150.0, 0.0, -150.0, 0.0, 0.1 ],
+			[ -150.0, 0.0, 0.0, 1.0, 0.7 ]
+		],
+		"easing_bar": [
+			[ 100.0, 0.0, 100.0, 0.0, 0.4 ],
+			[ 100.0, 0.0, 0.0, 1.0, 0.8 ]
+		],
+
+		"easing_allow": [
+			[ 0.0, 0.0, 1.5 ],
+			[ 0.0, 1.0, 1.5 ]
+		],
+
+		"camera_time": 1.2,
+
+		"bar_margin": 350,
+		"bar_min": 400,
+		
+		"interval": 20.0,
+		"drag_decay": 0.96,
+		"drag_stick": 0.2,
+		"appeal_speed": 5,
+		"appeal_width": 5
+	},
+	
+	"reviewintro": {
+		"light": 0.4,
+		"light_st": 1.5,
+		"light_st_delay": 0.05,
+		"light_ed": 0.25,
+		"light_ed_delay": 0.2,
+		
+		"frame": 2.5,
+		"frame_add": 1.5,
+		"frame_num": 5,
+
+		"y_ofs": 20,
+		"nextline": 20,
+		"text": [ "review_intro1", "review_intro2", "review_intro3" ],
+
+		"ease_in": [
+			[ 0, 0, 0, 0, 0.5 ],
+			[ 0.85, 0, 1.0, 1, 0.3 ],
+			[ 1.0, 1, 1.0, 1, 1.0 ]
+		],
+		"ease_out": [
+			[ 1.0, 1, 0.85, 0, 0.3 ],
+			[ 0, 0, 0, 0, 0.25 ]
+		]
+	},
+
+	"rankeft": {
+		"widgets": {
+			"1": {
+				"pos": [0, 0],
+				"size": [22, 22],
+				"uv": [297, 1],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"2": {
+				"pos": [0, 0],
+				"size": [22, 22],
+				"uv": [322, 1],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"3": {
+				"pos": [0, 0],
+				"size": [22, 22],
+				"uv": [347, 1],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"4": {
+				"pos": [0, 0],
+				"size": [22, 22],
+				"uv": [297, 23],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"5": {
+				"pos": [0, 0],
+				"size": [22, 22],
+				"uv": [322, 23],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			},
+			"6": {
+				"pos": [0, 0],
+				"size": [22, 22],
+				"uv": [347, 23],
+				"col": [1, 1, 1, 1],
+				"texture": "devdata/result.png"
+			}
+		},
+		"eft_time": 1.2,
+		"eft_speed": 25
+	},
+	
+	"audio": {
+		"opening": {
+			"file": "audio/opening.wav",
+			"ch": "bgm",
+			"type": 0,
+			"loop": false,
+			"gain": 0.7
+		},
+		"start": {
+			"file": "audio/start.wav",
+			"ch": "se_1",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"touch_in": {
+			"file": "audio/touch_in.wav",
+			"ch": "touch",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"touch_just1": {
+			"file": "audio/touch_just1.wav",
+			"ch": "touch",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"touch_just2": {
+			"file": "audio/touch_just2.wav",
+			"ch": "touch",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"touch_just3": {
+			"file": "audio/touch_just3.wav",
+			"ch": "touch",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"touch_just4": {
+			"file": "audio/touch_just4.wav",
+			"ch": "touch",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"touch_out": {
+			"file": "audio/touch_out.wav",
+			"ch": "touch",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"stop": {
+			"file": "audio/stop.wav",
+			"ch": "stop",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"complete": {
+			"file": "audio/complete.wav",
+			"ch": "stop",
+			"type": 1,
+			"loop": false,
+			"gain": 0.7
+		},
+		"result": {
+			"file": "audio/result.wav",
+			"ch": "bgm",
+			"type": 0,
+			"loop": false,
+			"gain": 1.0
+		},
+		"count_down": {
+			"file": "audio/count_down.wav",
+			"ch": "se_1",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"question": {
+			"file": "audio/question.wav",
+			"ch": "question",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"gamestart": {
+			"file": "audio/gamestart.wav",
+			"ch": "gamestart",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"miss": {
+			"file": "audio/miss.wav",
+			"ch": "miss",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"lvup": {
+			"file": "audio/lvup.wav",
+			"ch": "lvup",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"ranking": {
+			"file": "audio/ranking.wav",
+			"ch": "ranking",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"unlock": {
+			"file": "audio/unlock.wav",
+			"ch": "unlock",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"alert": {
+			"file": "audio/alert.wav",
+			"ch": "alert",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"rank": {
+			"file": "audio/rank.wav",
+			"ch": "rank",
+			"type": 1,
+			"loop": false,
+			"gain": 1.0
+		},
+		"hint": {
+			"file": "audio/hint.wav",
+			"ch": "hint",
+			"type": 1,
+			"loop": false,
+			"gain": 0.7
+		}
+	},
+
+	"texture": [
+		"devdata/title.png",
+		"devdata/demo.png",
+		"devdata/game.png",
+		"devdata/game2.png",
+		"devdata/game3.png",
+		"devdata/game4.png",
+		"devdata/game5.png",
+		"devdata/game6.png",
+		"devdata/result.png"
+	],
+
+	"fonts": {
+		"ranking": {
+			"file": "devdata/VeraMono.ttf",
+			"height": 30
+		},
+		"place": {
+			"file": "devdata/meiryo.ttf",
+			"buffer": true,
+			"height": 40
+		},
+		"achievement": {
+			"file": "devdata/meiryo.ttf",
+			"height": 30
+		},
+		"staff": {
+			"file": "devdata/meiryo.ttf",
+			"height": 23
+		}
+	},
+
+	"lights": [
+		{
+			"name": "earthLight",
+			"constant": 1.0,
+			"ambient": [ 0.3, 0.3, 0.3 ],
+			"diffuse": [ 1.0, 1.0, 1.0 ],
+			"pos": [ 0, 0, 0 ],
+			"ofs": [ 0.0, 1000.0, 3000.0 ]
+		}
+	],
+
+	"staff": {
+		"y_ofs": -15,
+		"text": [
+			"KONAHEN",
+			"",
+			"Developed by Nishiyama Nobuyuki",
+			"Thanks to:",
+			"Software Society Akihabara",
+			"Japan Electronics College",
+			"",
+			"Portions of this software are",
+			"zlib:©1995 Jean-loup Gailly and Mark Adler",
+			"libpng:©1998 Glenn Randers-Pehrson",
+			"Freetype:©1996 The FreeType Project",
+			"FTGL:©2001 Henry Maddocks",
+			"PicoJSON:©2009 Cybozu Labs, Inc.",
+			"©2011 Kazuho Oku"
+		]
+	},
+
+	"staff_lite": {
+		"y_ofs": -35,
+		"text": [
+			"KONAHEN LITE",
+			"Developed by Nishiyama Nobuyuki",
+			"Thanks to:",
+			"Software Society Akihabara",
+			"Japan Electronics College",
+			"",
+			"zlib:©1995 Jean-loup Gailly and Mark Adler",
+			"libpng:©1998 Glenn Randers-Pehrson",
+			"Freetype:©1996 The FreeType Project",
+			"FTGL:©2001 Henry Maddocks",
+			"PicoJSON:©2009 Cybozu Labs, Inc.",
+			"©2011 Kazuho Oku"
+		]
+	},
+
+	"achievement": {
+		"delay": 0.5,
+		"title": "実績解除",
+		"text": {
+			"advanced":	[ "advanced" ],
+			"survival":	[ "survival" ],
+			"earth_texture": [ "earth_texture1", "earth_texture2" ],
+			"nightmode": [ "nightmode1", "nightmode2" ],
+			"review": [ "review" ],
+			"getfull": [ "getfull1", "getfull2", "getfull3" ]
+		}
+	},
+
+	"placeview": {
+		"font": "devdata/meiryo.ttf",
+		"height": 15,
+		
+		"types": {
+			"country": "国",
+			"city": "都市",
+			"heritage": "世界遺産",
+			"nature": "自然",
+			"sea": "海",
+			"lake": "湖",
+			"company": "会社",
+			"guinness": "世界一",
+			"knowledge": "雑学"
+		}
+	}
+}

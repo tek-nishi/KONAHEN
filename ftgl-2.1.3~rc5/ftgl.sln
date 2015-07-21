@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ftgl", "ftgl.vcxproj", "{E622F16F-1DD8-407C-8945-E71CC9B97394}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E622F16F-1DD8-407C-8945-E71CC9B97394}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E622F16F-1DD8-407C-8945-E71CC9B97394}.Debug|Win32.Build.0 = Debug|Win32
+		{E622F16F-1DD8-407C-8945-E71CC9B97394}.Release|Win32.ActiveCfg = Release|Win32
+		{E622F16F-1DD8-407C-8945-E71CC9B97394}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
