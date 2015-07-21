@@ -8,16 +8,16 @@
 // #define VER_LITE
 
 #ifdef _DEBUG
-#define NO_READ_PLACES															// 問題を先読みしない
-#define NN_APP_DISP_FPS															// FPS表示
-// #define REPLAY_REC																	// デモ用にプレイを記録
-#define JSON_CONV																		// JSONを圧縮
-#define ANY_CORRECT																	// どこをタッチしても正解
-// #define _MEMORY_CHECK																// メモリ使用量をチェック
-#define TOUCH_RECORD																// 操作を記録する
+#define NO_READ_PLACES                              // 問題を先読みしない
+#define NN_APP_DISP_FPS                             // FPS表示
+// #define REPLAY_REC                                 // デモ用にプレイを記録
+#define JSON_CONV                                   // JSONを圧縮
+#define ANY_CORRECT                                 // どこをタッチしても正解
+// #define _MEMORY_CHECK                                // メモリ使用量をチェック
+#define TOUCH_RECORD                                // 操作を記録する
 #endif
 
-#define READ_FROM_Z																	// zlib圧縮テキスト対応
+#define READ_FROM_Z                                 // zlib圧縮テキスト対応
 #ifdef READ_FROM_Z
 #define WRITE_TO_Z
 #endif
@@ -29,7 +29,7 @@
 #endif
 // std::cout一網打尽マクロ
 
-const unsigned int osTimerPeriod = 1;								// WinのtimeBeginPeriod()で使う
+const unsigned int osTimerPeriod = 1;               // WinのtimeBeginPeriod()で使う
 
 #if defined (PI)
 #undef PI
@@ -69,28 +69,28 @@ typedef GLfloat GLdouble;
 
 
 enum {
-	GLUT_KEY_F1	 = 1,
-	GLUT_KEY_F2	 = 2,
-	GLUT_KEY_F3	 = 3,
-	GLUT_KEY_F4	 = 4,
-	GLUT_KEY_F5	 = 5,
-	GLUT_KEY_F6	 = 6,
-	GLUT_KEY_F7	 = 7,
-	GLUT_KEY_F8	 = 8,
-	GLUT_KEY_F9	 = 9,
-	GLUT_KEY_F10 = 10,
-	GLUT_KEY_F11 = 11,
-	GLUT_KEY_F12 = 12,
-	
-	GLUT_KEY_LEFT			 = 100,
-	GLUT_KEY_UP				 = 101,
-	GLUT_KEY_RIGHT		 = 102,
-	GLUT_KEY_DOWN			 = 103,
-	GLUT_KEY_PAGE_UP	 = 104,
-	GLUT_KEY_PAGE_DOWN = 105,
-	GLUT_KEY_HOME			 = 106,
-	GLUT_KEY_END			 = 107,
-	GLUT_KEY_INSERT		 = 108,
+  GLUT_KEY_F1  = 1,
+  GLUT_KEY_F2  = 2,
+  GLUT_KEY_F3  = 3,
+  GLUT_KEY_F4  = 4,
+  GLUT_KEY_F5  = 5,
+  GLUT_KEY_F6  = 6,
+  GLUT_KEY_F7  = 7,
+  GLUT_KEY_F8  = 8,
+  GLUT_KEY_F9  = 9,
+  GLUT_KEY_F10 = 10,
+  GLUT_KEY_F11 = 11,
+  GLUT_KEY_F12 = 12,
+  
+  GLUT_KEY_LEFT      = 100,
+  GLUT_KEY_UP        = 101,
+  GLUT_KEY_RIGHT     = 102,
+  GLUT_KEY_DOWN      = 103,
+  GLUT_KEY_PAGE_UP   = 104,
+  GLUT_KEY_PAGE_DOWN = 105,
+  GLUT_KEY_HOME      = 106,
+  GLUT_KEY_END       = 107,
+  GLUT_KEY_INSERT    = 108,
 };
 
 #define glutIgnoreKeyRepeat(aValue)

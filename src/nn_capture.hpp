@@ -16,19 +16,19 @@ u_int number;
 
 void StartCapture()
 {
-	number = 0;
+  number = 0;
 }
 
 void ExecCapture(const std::string& path, u_int width, u_int height)
 {
-	std::stringstream sstr;
+  std::stringstream sstr;
 
-	// sstr << path << "spapshot" << std::setw(5) << std::setfill('0') << number << ".png" << std::flush;
-	// WriteFramebufferToPngFile(sstr.str(), width, height);
-	sstr << path << "spapshot" << std::setw(5) << std::setfill('0') << number << ".jpg";
-	WriteFramebufferToJpegFile(sstr.str(), width, height);
+  // sstr << path << "spapshot" << std::setw(5) << std::setfill('0') << number << ".png" << std::flush;
+  // WriteFramebufferToPngFile(sstr.str(), width, height);
+  sstr << path << "spapshot" << std::setw(5) << std::setfill('0') << number << ".jpg";
+  WriteFramebufferToJpegFile(sstr.str(), width, height);
 
-	++number;
+  ++number;
 }
 
 }

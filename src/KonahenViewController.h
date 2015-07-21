@@ -24,31 +24,31 @@
 
 @interface KonahenViewController : UIViewController<GKLeaderboardViewControllerDelegate, ADBannerViewDelegate>
 {
-	IBOutlet UIButton *gameCenter;
-	IBOutlet UIButton *twitter;
-	IBOutlet UIButton *capture;
-	NSString *category;																// Leaderboard表示カテゴリ
+  IBOutlet UIButton *gameCenter;
+  IBOutlet UIButton *twitter;
+  IBOutlet UIButton *capture;
+  NSString *category;                               // Leaderboard表示カテゴリ
 
-	EAGLContext *context;
-	GLuint program;
+  EAGLContext *context;
+  GLuint program;
     
-	BOOL animating;
-	NSInteger animationFrameInterval;
-	CADisplayLink *displayLink;
+  BOOL animating;
+  NSInteger animationFrameInterval;
+  CADisplayLink *displayLink;
 
-	float scale_;
-	float ckp_scale_;
+  float scale_;
+  float ckp_scale_;
 
-	unsigned int frame_count;
-	unsigned int mouse_frame;
+  unsigned int frame_count;
+  unsigned int mouse_frame;
 
-	BOOL execCapture;
+  BOOL execCapture;
 
-	NSString *tweetText;
-	UIImage	 *tweetImage;
-	BOOL doCapture;
+  NSString *tweetText;
+  UIImage  *tweetImage;
+  BOOL doCapture;
 
-	ADBannerView *adBanner;
+  ADBannerView *adBanner;
 }
 @property (nonatomic, retain) UIButton *gameCenter;
 @property (nonatomic, retain) UIButton *twitter;

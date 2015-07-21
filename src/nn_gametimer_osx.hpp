@@ -16,40 +16,40 @@ namespace ngs {
 
 double getCurTime()
 {
-	timeval tv;
-	gettimeofday(&tv, NULL);
-	return (double)tv.tv_sec + (double)tv.tv_usec * 0.001 * 0.001;
+  timeval tv;
+  gettimeofday(&tv, NULL);
+  return (double)tv.tv_sec + (double)tv.tv_usec * 0.001 * 0.001;
 }
 
 
 class GameTimer
 {
-	enum { REC_MAX = 30 };
+  enum { REC_MAX = 30 };
 
-	double time_;
-	Avarage<double> times_;
-	float last_;
-	float avg_;
+  double time_;
+  Avarage<double> times_;
+  float last_;
+  float avg_;
 public:
-	GameTimer() :
-		time_(getCurTime()),
-		times_(0, REC_MAX),
-		last_(),
-		avg_()
-	{}
-	~GameTimer() {}
+  GameTimer() :
+    time_(getCurTime()),
+    times_(0, REC_MAX),
+    last_(),
+    avg_()
+  {}
+  ~GameTimer() {}
 
-	void update()
-	{
-		double t = getCurTime();
-		double dt = t - time_;
-		last_ = dt;
-		avg_ = (times_ += dt);
-		time_ = t;
-	}
+  void update()
+  {
+    double t = getCurTime();
+    double dt = t - time_;
+    last_ = dt;
+    avg_ = (times_ += dt);
+    time_ = t;
+  }
 
-	float avarage() const { return avg_; }
-	float last() const { return last_; }
+  float avarage() const { return avg_; }
+  float last() const { return last_; }
 };
 
 }
