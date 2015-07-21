@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A10475BB-D1F7-4215-8B8D-ADDE1094D3B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>game04</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B7439005EAC5B7FCF821E249AA895AC06B79C2D</key>
+		<string>github.com:tek-nishi/KONAHEN.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>game04.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B7439005EAC5B7FCF821E249AA895AC06B79C2D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:tek-nishi/KONAHEN.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B7439005EAC5B7FCF821E249AA895AC06B79C2D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B7439005EAC5B7FCF821E249AA895AC06B79C2D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>konahen-pc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
