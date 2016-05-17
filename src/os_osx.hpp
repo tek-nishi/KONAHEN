@@ -51,8 +51,9 @@ public:
     DOUT << "Os()" << std::endl;
 
     CFStringRef langFile = CFCopyLocalizedString(CFSTR("langFile"), 0);
-    const char *str = CFStringGetCStringPtr(langFile, kCFStringEncodingUTF8);
-    assert(str);
+    char str[PATH_MAX];
+    bool result = CFStringGetCString(langFile, str, PATH_MAX - 1, kCFStringEncodingUTF8);
+    assert(result);
     lang_ = std::string(str);
     // TIPS:ローカライズ設定から読み込むファイルを決定する
   }
