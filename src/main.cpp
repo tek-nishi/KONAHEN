@@ -364,7 +364,7 @@ int main(int argc, char **argv)
   glutInitWindowSize(width_, height_);
   glutInitWindowPosition(x, y);
   glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE);
-  glutCreateWindow(APP_TITLE":"APP_VERSION);
+  glutCreateWindow(APP_TITLE ":" APP_VERSION);
 
   initGlexFunc();
 
