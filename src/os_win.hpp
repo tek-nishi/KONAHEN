@@ -57,9 +57,8 @@ public:
     DOUT << "Os()" << std::endl;
     timeBeginPeriod(osTimerPeriod);
 
-    std::locale lc("");
-    DOUT << lc.name() << std::endl;
-    if (lc.name() == std::string("Japanese_Japan.932"))
+    DOUT << "locale:" << setlocale(LC_ALL, "") << std::endl;
+    if (setlocale(LC_ALL, "") == std::string("Japanese_Japan.932"))
     {
       lang_ = "jp.lang";
     }
